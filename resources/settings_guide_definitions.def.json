@@ -132,6 +132,12 @@
 			"description": "About this plug-in",
 			"icon": "info",
 			"children": {
+				"release": {
+					"label": "Release",
+					"description": "Readme Current Release.",
+					"type": "str",
+					"default_value": ""
+				},				
 				"glossary": {
 					"label": "Glossary",
 					"description": "Terminology used by Cura.",
