@@ -1,0 +1,8 @@
+{
+	"name": "Settings Guide",
+	"author": "Ghostkeeper",
+	"version": "2.9.2",
+	"description": "Provides extra information and explanations about settings in Cura, with images and animations.",
+	"api": 6,
+	"supported_sdk_versions": ["6.0.0", "7.0.0", "8.0.0"]
+}
