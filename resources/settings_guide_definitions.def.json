@@ -131,13 +131,25 @@
 			"type": "category",
 			"description": "About this plug-in",
 			"icon": "info",
-			"children": {
+			"children": {	
 				"release": {
 					"label": "Release",
 					"description": "Readme Current Release.",
 					"type": "str",
 					"default_value": ""
-				},				
+				},	
+				"mb-master": {
+					"label": "Difference from the regular Cura",
+					"description": "Differences from the regular master branch",
+					"type": "str",
+					"default_value": ""
+				},
+				"change": {
+					"label": "Change",
+					"description": "Recently change",
+					"type": "str",
+					"default_value": ""
+				},					
 				"glossary": {
 					"label": "Glossary",
 					"description": "Terminology used by Cura.",
