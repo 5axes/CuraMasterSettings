@@ -314,9 +314,7 @@ The lightning infill pattern is a jagged minimal pattern that only aims to suppo
 <!--endif-->
 
 
-<!--if cura_version>=4.20-->
-
-
+<!--if cura_version>=4.14-->
 Schwarz P
 ----
 
