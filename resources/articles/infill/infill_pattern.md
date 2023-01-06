@@ -312,3 +312,48 @@ The lightning infill pattern is a jagged minimal pattern that only aims to suppo
 * Prevents infill from shining through the walls in many places, by simply not having infill.
 * Does not add to the strength of the part in any significant way.
 <!--endif-->
+
+
+<!--if cura_version>=4.20-->
+
+
+Schwarz P
+----
+
+The Schwarz P infill pattern produces a wavy pattern that alternates directions.
+* Produces one volume which is completely permeable to fluids, making this a useful pattern for dissolvable materials.
+* Equally strong in all directions, but not very stiff. This makes it useful for flexible materials, but the result will be somewhat harder, less squishy, than the Cross (3D) infill patterns.
+* There are no overlapping lines in this pattern, which allows printing with materials with higher surface tension more easily and makes the infill very reliable and consistent.
+* Resistant to shearing.
+* Takes a long time to slice and produces large g-code files. For some printers it may be hard to keep up with the many g-code commands per second, and it may be hard to keep up with over serial connection on low baud rates.
+
+
+Schwarz D
+----
+
+The Schwarz D infill pattern produces a wavy pattern that alternates directions.
+* Produces one volume which is completely permeable to fluids, making this a useful pattern for dissolvable materials.
+* Equally strong in all directions, but not very stiff. This makes it useful for flexible materials, but the result will be somewhat harder, less squishy, than the Cross (3D) infill patterns.
+* There are no overlapping lines in this pattern, which allows printing with materials with higher surface tension more easily and makes the infill very reliable and consistent.
+* Resistant to shearing.
+* Takes a long time to slice and produces large g-code files. For some printers it may be hard to keep up with the many g-code commands per second, and it may be hard to keep up with over serial connection on low baud rates.
+
+
+Hilbert Curve
+----
+
+The Hilbert Curve infill pattern produces a Hilbert Curve style pattern.
+
+
+Honeycomb
+----
+
+The Honeycomb infill pattern produces a Honeycomb style pattern.
+
+Discrete Lines
+----
+
+This infill pattern has been requested by a user who has specific requirements regarding the placement of infill lines. They need to be able to explicitly control where the infill lines are positioned. To achieve this, the infill lines are specified by either a literal JSON string or a file containing one or more JSON objects, each object specifying the characteristics of a region of infill.
+
+
+<!--endif-->
