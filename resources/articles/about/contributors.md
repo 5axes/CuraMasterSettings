@@ -1,6 +1,6 @@
 Contributors
 ====
-![This project is maintained by Ghostkeeper](../images/contributors/Ghostkeeper.png)
+![This project is maintained by 5axes](../images/contributors/5axes.png)
 
 Programming
 ----
@@ -13,14 +13,13 @@ Articles
 ![Ellecross - Basis of content in v1.0](../images/contributors/Ellecross.jpg)
 ![Jeroen Stevens - Basis of content in v1.0](../images/contributors/no_avatar.svg)
 ![Christerbeke - Article about Adaptive Layer Height](../images/contributors/Christerbeke.jpg)
-![Laurent Lalliard - Minor corrections](../images/contributors/5axes.png)
+![Laurent Lalliard - Cura Master relative articles](../images/contributors/5axes.png)
 ![Sophist - Minor corrections](../images/contributors/Sophist.jpg)
 ![Yohan Pereira - Minor corrections](../images/contributors/yohan-pereira.png)
 ![DigitalFrost - Minor corrections](../images/contributors/DigitalFrost.jpg)
 
 Translations
 ----
-![Goodfeat - Russian](../images/contributors/Goodfeat.png)
 ![Laurent Lalliard - French](../images/contributors/5axes.png)
 ![Vb138 - Czech](../images/contributors/Vb138.png)
 ![SekIsBack - German](../images/contributors/Sekisback.jpg)
