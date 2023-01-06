@@ -1,6 +1,4 @@
-
-# 
-Hole Horizontal Expansion Max Size
+# Hole Horizontal Expansion Max Size
 
 
 # hole_xy_offset_max_size description

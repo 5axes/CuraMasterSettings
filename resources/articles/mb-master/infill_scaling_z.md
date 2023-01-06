@@ -1,6 +1,4 @@
-
-# 
-Infill Vertical Scaling
+# Infill Vertical Scaling
 
 
 # infill_scaling_z description

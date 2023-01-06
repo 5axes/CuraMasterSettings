@@ -1,6 +1,4 @@
-
-# 
-Max Filament Flow Rate
+# Max Filament Flow Rate
 
 
 # material_max_mm3_per_sec description

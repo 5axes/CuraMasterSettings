@@ -1,6 +1,4 @@
-
-# 
-Extruder Minimum Volume
+# Extruder Minimum Volume
 
 
 # extruder_min_volume description

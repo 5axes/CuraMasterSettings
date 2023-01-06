@@ -1,7 +1,4 @@
-
-
-# 
-Gradient Infill Max Flow
+# Gradient Infill Max Flow
 
 
 # gradient_infill_max_flow description

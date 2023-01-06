@@ -1,7 +1,4 @@
-
-
-# 
-Gradient Infill Speed Scheme
+# Gradient Infill Speed Scheme
 
 
 # gradient_infill_speed_scheme description

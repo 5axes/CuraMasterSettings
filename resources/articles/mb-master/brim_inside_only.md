@@ -1,7 +1,4 @@
-
-
-# 
-Brim Only on Inside
+# Brim Only on Inside
 
 
 # brim_inside_only description

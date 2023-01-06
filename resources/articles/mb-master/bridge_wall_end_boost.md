@@ -1,6 +1,4 @@
-
-# 
-Bridge Wall End Boost
+# Bridge Wall End Boost
 
 
 # bridge_wall_end_boost description

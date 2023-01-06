@@ -1,5 +1,4 @@
-# 
-Infill Fan Speed Override
+# Infill Fan Speed Override
 
 
 # infill_fan_enable description

@@ -1,7 +1,4 @@
-
-
-# 
-Infill Pattern Resolution
+# Infill Pattern Resolution
 
 
 # infill_pattern_resolution description

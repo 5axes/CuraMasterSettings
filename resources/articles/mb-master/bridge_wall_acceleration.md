@@ -1,7 +1,4 @@
-
-
-# 
-Bridge Wall Acceleration
+# Bridge Wall Acceleration
 
 
 # bridge_wall_acceleration description

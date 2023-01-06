@@ -1,7 +1,4 @@
-
-
-# 
-Gradient Infill Min Flow
+# Gradient Infill Min Flow
 
 
 # gradient_infill_min_flow description

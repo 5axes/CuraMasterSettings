@@ -1,6 +1,4 @@
-
-# 
-Ironing Fan Speed
+# Ironing Fan Speed
 
 
 # ironing_fan_speed description

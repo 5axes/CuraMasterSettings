@@ -1,6 +1,4 @@
-
-# 
-Initial Fan Speed at Height
+# Initial Fan Speed at Height
 
 
 # cool_fan_min_at_height description

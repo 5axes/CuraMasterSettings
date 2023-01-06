@@ -1,5 +1,4 @@
-# 
-Hole Horizontal Expansion Max Length
+# Hole Horizontal Expansion Max Length
 
 
 # hole_xy_offset_max_path_len description

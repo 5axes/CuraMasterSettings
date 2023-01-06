@@ -1,5 +1,4 @@
-# 
-Ironing Fan Speed Override
+# Ironing Fan Speed Override
 
 
 # ironing_fan_enable description

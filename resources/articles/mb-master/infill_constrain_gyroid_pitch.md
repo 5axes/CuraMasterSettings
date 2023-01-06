@@ -1,6 +1,4 @@
-
-# 
-Minimise Gyroid Holes
+# Minimise Gyroid Holes
 
 
 # infill_constrain_gyroid_pitch description

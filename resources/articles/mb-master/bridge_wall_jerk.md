@@ -1,5 +1,4 @@
-# 
-Bridge Wall Jerk
+# Bridge Wall Jerk
 
 
 # bridge_wall_jerk description

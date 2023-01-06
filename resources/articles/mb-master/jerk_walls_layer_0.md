@@ -1,5 +1,4 @@
-# 
-Initial Layer Walls Jerk
+# Initial Layer Walls Jerk
 
 
 # jerk_walls_layer_0 description

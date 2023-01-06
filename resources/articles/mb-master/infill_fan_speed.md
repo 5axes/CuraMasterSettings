@@ -1,7 +1,4 @@
-
-
-# 
-Infill Fan Speed
+# Infill Fan Speed
 
 
 # infill_fan_speed description

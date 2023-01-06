@@ -1,6 +1,4 @@
-
-# 
-Bridge Third Skin Overlap
+# Bridge Third Skin Overlap
 
 
 # bridge_skin_overlap_mm_3 description

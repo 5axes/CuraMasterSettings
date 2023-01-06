@@ -1,6 +1,4 @@
-
-# 
-Cooling Fan Lag
+# Cooling Fan Lag
 
 
 # cool_fan_lag description

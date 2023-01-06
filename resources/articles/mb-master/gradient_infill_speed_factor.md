@@ -1,6 +1,4 @@
-
-# 
-Gradient Infill Speed Factor
+# Gradient Infill Speed Factor
 
 
 # gradient_infill_speed_factor description

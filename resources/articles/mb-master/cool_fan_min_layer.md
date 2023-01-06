@@ -1,7 +1,4 @@
-
-
-# 
-Initial Fan Speed at Layer
+# Initial Fan Speed at Layer
 
 
 # cool_fan_min_layer description

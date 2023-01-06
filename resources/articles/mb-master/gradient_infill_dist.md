@@ -1,5 +1,4 @@
-# 
-Gradient Infill Distance
+# Gradient Infill Distance
 
 
 # gradient_infill_dist description

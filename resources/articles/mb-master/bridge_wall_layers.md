@@ -1,7 +1,4 @@
-
-
-# 
-Bridge Wall Layers
+# Bridge Wall Layers
 
 
 # bridge_wall_layers description

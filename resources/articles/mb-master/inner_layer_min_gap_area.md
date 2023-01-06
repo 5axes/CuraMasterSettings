@@ -1,6 +1,4 @@
-
-# 
-Inner Layer Minimum Gap Area
+# Inner Layer Minimum Gap Area
 
 
 # inner_layer_min_gap_area description
