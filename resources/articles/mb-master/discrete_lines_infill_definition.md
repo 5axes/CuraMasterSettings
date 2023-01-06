@@ -9,17 +9,17 @@ Here's some examples that show the current capabilities...
 
 1 - Firstly, here's the inside of a model that has been sliced using the Discrete Lines infill pattern with an empty Discrete Lines Definition...
 
-![Screenshot_2022-09-16_12-10-26](file:///./image002.jpg)
+![Screenshot_2022-09-16_12-10-26](./image002.jpg)
 
 No real surprise that there's no infill as the definition is empty.
 
 2 - For really simple infill that repeats across the model you can set Discrete Lines Definition to something like **{ "xpitch": 4 }** (remember, it's JSON syntax so you need to enclose the definition of xpitch with { and }). This is saying, generate infill lines every 4 mm in the x direction (and as long as required in the y direction). So now you get this...
 
-![Screenshot_2022-09-16_12-16-36](file:///./image004.jpg)
+![Screenshot_2022-09-16_12-16-36](./image004.jpg)
 
 3 - You could also provide more than one definition so let's add some lines spaced across the y axis using **{ "xpitch": 4, "ypitch": 10 }**...
 
-![Screenshot_2022-09-16_12-20-37](file:///./image006.jpg)
+![Screenshot_2022-09-16_12-20-37](./image006.jpg)
 
 Obviously, you can't type much in that little settings text field so, instead, **_you can provide the settings as a JSON file and simply put the name of the file in the settings field prefixed with @_** . The file name can either be absolute or relative to the directory the project file was loaded from or the user's home directory.
 
@@ -27,67 +27,47 @@ Obviously, you can't type much in that little settings text field so, instead, *
 
 All the examples now are specified as a JSON file. Here's a really simple example that introduces the "x" member name. This expects to be followed by an array of x coordinates and generates a single line for each coordinate. As you would expect, there's a "y" member name too.
 
-` {`
+` {
+ "x": [-18, 0, 15]
+ }`
 
-` "x": [-18, 0, 15]`
-
-` }`
-
-![Screenshot_2022-09-16_13-13-25](file:///./image008.jpg)
+![Screenshot_2022-09-16_13-13-25](./image008.jpg)
 
 By default, the infill is clipped to fit the outline of the model being filled but you can also specify limits in all three, (x, y & z) dimensions. So here we show repeated lines that are limited to a central region of our model...
 
 `{`
-
 ` "xpitch": 3,`
-
 ` "xmin": -15,`
-
 ` "xmax": 15`
-
 `}`
 
-![Screenshot_2022-09-16_13-20-33](file:///./image010.jpg)
+![Screenshot_2022-09-16_13-20-33](./image010.jpg)
 
 We can limit in the y direction also...
 
 `{`
-
 ` "xpitch": 3,`
-
 ` "xmin": -15,`
-
 ` "xmax": 15,`
-
 ` "ymin": 0`
-
 `}`
 
-![Screenshot_2022-09-16_13-19-46](file:///./image012.jpg)
+![Screenshot_2022-09-16_13-19-46](./image012.jpg)
 
 The definition file can contain not just a single definition but an array of definitions and they are processed sequentially. This following example shows the x lines in the central region as before but also, now has y lines in the outer regions as well...
 
 `[`
-
 ` {`
-
 ` "xpitch": 3,`
-
 ` "xmin": -15,`
-
 ` "xmax": 15`
-
 ` },`
-
 ` {`
-
 ` "ypitch": 5`
-
 ` }`
-
 `]`
 
-![Screenshot_2022-09-16_13-25-48](file:///./image014.jpg)
+![Screenshot_2022-09-16_13-25-48](./image014.jpg)
 
 You will have noticed that the y lines are excluded from the x lines region and that's because after each area of infill has been defined, it clips that area from the model. This default behaviour can be altered by setting "clip" to False like this...
 
@@ -113,7 +93,7 @@ You will have noticed that the y lines are excluded from the x lines region and 
 
 `]`
 
-![Screenshot_2022-09-16_13-29-58](file:///./image016.jpg)
+![Screenshot_2022-09-16_13-29-58](./image016.jpg)
 
 There's a couple more members that take boolean values: "enable" and "zigzag".
 
@@ -134,7 +114,7 @@ Setting "zigzag" to true joins up the ends of the lines where they meet the mode
 `]`
 
 Here's the plan view of that with the shell not visible...  
-![Screenshot_2022-09-16_13-37-13](file:///./image018.jpg)
+![Screenshot_2022-09-16_13-37-13](./image018.jpg)
 
 Finally, there's the "angle" member that let's you specify a rotation of the lines...
 
@@ -150,7 +130,7 @@ Finally, there's the "angle" member that let's you specify a rotation of the lin
 
 `]`
 
-![Screenshot_2022-09-16_13-39-55](file:///./image020.jpg)
+![Screenshot_2022-09-16_13-39-55](./image020.jpg)
 
 # Currently implemented members
 
@@ -246,7 +226,7 @@ Unfortunately, there's currently no mechanism in Cura to get an error message ge
 
 Ah, but the infill X and Y offsets are still active with this mode so here is an example where the infill lines should cross at the middle of the model but the infill has been shifted...
 
-![Screenshot_2022-09-16_17-11-34](file:///./image022.jpg)
+![Screenshot_2022-09-16_17-11-34](./image022.jpg)
 
 # "xpitch" and "ypitch" member
 
@@ -282,7 +262,7 @@ Latest addition: the "xpitch" and "ypitch" values can either be a single number,
 
 And this is what you get (sans shell for clarity)...
 
-![Screenshot_2022-09-16_20-55-21](file:///./image024.jpg)
+![Screenshot_2022-09-16_20-55-21](./image024.jpg)
 
 ## Variable picth density
 
@@ -300,7 +280,7 @@ Here's another example showing the infill density going from 10% at the bottom o
 
 `]`
 
-![Screenshot_2022-09-16_22-00-21](file:///./image026.jpg)![Screenshot_2022-09-16_22-00-09](file:///./image028.jpg)
+![Screenshot_2022-09-16_22-00-21](./image026.jpg)![Screenshot_2022-09-16_22-00-09](./image028.jpg)
 
 # Waveform generation
 
@@ -324,7 +304,7 @@ If straight line infill is too boring, you can also have wiggly lines...
 
 `]`
 
-![Screenshot_2022-09-17_19-51-33](file:///./image030.jpg)
+![Screenshot_2022-09-17_19-51-33](./image030.jpg)
 
 The waveform shape can be specified as an array of amplitudes (between -1 and 1) like this...
 
@@ -346,7 +326,7 @@ The waveform shape can be specified as an array of amplitudes (between -1 and 1)
 
 `]`
 
-![Screenshot_2022-09-17_20-01-34](file:///./image032.jpg)
+![Screenshot_2022-09-17_20-01-34](./image032.jpg)
 
 Finally, because the waveform amplitude and wavelength can be varied with layer height you can achieve wacky stuff like this example where the sine wave amplitude goes from 0 to 5
 
@@ -368,7 +348,7 @@ Finally, because the waveform amplitude and wavelength can be varied with layer 
 
 Here's a bottom view of that without the zigzags or shell...
 
-![Screenshot_2022-09-17_20-04-21](file:///./image034.jpg)
+![Screenshot_2022-09-17_20-04-21](./image034.jpg)
 
 So there's (almost) straight lines at the bottom and sine waves at the top.
 
@@ -396,7 +376,7 @@ The above described mechanism for specifying the shape of a waveform has a major
 
 But that produces sloped lines between the horizontal portions of the waveform, as you can see here...
 
-![Screenshot_2022-09-17_23-59-59](file:///./image036.jpg)
+![Screenshot_2022-09-17_23-59-59](./image036.jpg)
 
 I want to find the easiest way of specifying that a transition should take zero time. My current scheme is to mark amplitude value changes that should occur "instantaneously" with a string element in the array, so the above example would now look like:
 
@@ -420,7 +400,7 @@ I want to find the easiest way of specifying that a transition should take zero 
 
 The "" elements are indicating that the transitions from -1 to 1 and 1 to -1 should take zero time. And now we get...
 
-![Screenshot_2022-09-18_00-05-49](file:///./image038.jpg)
+![Screenshot_2022-09-18_00-05-49](./image038.jpg)
 
 It works but I wonder if this is the simplest way to achieve this?
 
@@ -468,7 +448,7 @@ Don't know if i will ever use a motif like this one.. But working fine,
 
 `]`
 
-![image](file:///./image040.png)
+![image](./image040.png)
 
 ### [5axes](https://github.com/5axes) [on Sep 19, 2022](https://github.com/smartavionics/Cura/discussions/185#discussioncomment-3678074)
 
@@ -476,7 +456,7 @@ I don't think so... but by the way they are something strange concerning the use
 
 `"waveform": [1.0, 0.25, 0.0, 0.0, -0.25, -1.0,-1.0,"",1.0],`
 
-![image](file:///./image041.png)
+![image](./image041.png)
 
 "waveform": \[1.0, 1.0, 0.25, 0.0, 0.0, -0.25, -1.0,-1.0,""\],
 
@@ -484,13 +464,13 @@ Or
 
 "waveform": \["", 1.0, 1.0, 0.25, 0.0, 0.0, -0.25, -1.0,-1.0\],
 
-![image](file:///./image042.png)
+![image](./image042.png)
 
 If you abuse also of the double quotation mark can also give you some strange ( but interesting behaviour ) Ie :
 
 "waveform": \["","","","",1.0,1.0, 0.25, 0.0, 0.0, -0.25, -1.0,-1.0\],
 
-![image](file:///./image044.png)
+![image](./image044.png)
 
 # "scattered" member
 
@@ -508,7 +488,7 @@ If you abuse also of the double quotation mark can also give you some strange ( 
 
 `]`
 
-![Screenshot_2022-10-07_11-17-17](file:///./image046.jpg)
+![Screenshot_2022-10-07_11-17-17](./image046.jpg)
 
 With specified user pitch.
 
@@ -524,7 +504,7 @@ With specified user pitch.
 
 `]`
 
-![Screenshot_2022-09-19_11-46-09](file:///./image048.jpg)
+![Screenshot_2022-09-19_11-46-09](./image048.jpg)
 
 ## Sample `scattered` code
 
@@ -562,7 +542,7 @@ With specified user pitch.
 
 `]`
 
-![Screenshot_2022-10-07_20-36-27](file:///./image050.jpg)
+![Screenshot_2022-10-07_20-36-27](./image050.jpg)
 
 # "rings" and "spokes" member
 
@@ -580,13 +560,13 @@ Next we have "rings" and "spokes" which let you create spiderweb like infill...
 
 `]`
 
-![Screenshot_2022-10-07_11-19-13](file:///./image052.jpg)
+![Screenshot_2022-10-07_11-19-13](./image052.jpg)
 
 ## Offset the infill
 
 Even more spider web like if you offset the infill...
 
-![Screenshot_2022-10-07_11-21-50](file:///./image054.jpg)
+![Screenshot_2022-10-07_11-21-50](./image054.jpg)
 
 Notice how the spokes reduce in density at the origin.
 
@@ -606,7 +586,7 @@ The "r" member let's you specify individual radii for rings like this...
 
 `]`
 
-![Screenshot_2022-10-20_13-26-32](file:///./image056.jpg)
+![Screenshot_2022-10-20_13-26-32](./image056.jpg)
 
 # rmin & rmax member
 
@@ -640,7 +620,7 @@ The "r" member let's you specify individual radii for rings like this...
 
 `]`
 
-![Screenshot_2022-10-20_13-34-37](file:///./image058.jpg)
+![Screenshot_2022-10-20_13-34-37](./image058.jpg)
 
 # Contours member
 
@@ -658,4 +638,4 @@ And then we have "contours"...
 
 This image is using infill density of 20%, the above examples were using 10%.
 
-![Screenshot_2022-10-07_11-26-55](file:///./image060.jpg)
+![Screenshot_2022-10-07_11-26-55](./image060.jpg)
