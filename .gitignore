@@ -1,3 +1,4 @@
 
 *.pyc
 .ztr-directory
+*.stl
