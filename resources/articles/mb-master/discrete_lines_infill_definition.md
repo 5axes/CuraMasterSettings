@@ -639,3 +639,5 @@ And then we have "contours"...
 This image is using infill density of 20%, the above examples were using 10%.
 
 ![Screenshot_2022-10-07_11-26-55](../images-mb/image060.jpg)
+
+The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : discrete_lines_infill_definition

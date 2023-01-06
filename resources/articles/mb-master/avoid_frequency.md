@@ -1,0 +1,10 @@
+
+
+# avoid_frequency
+Avoid Frequency
+
+
+# avoid_frequency description
+When non-zero, this specifies a resonant frequency to be avoided when printing using the lines and zig zag patterns. To stop the print head oscillating at that frequency, the print speed is reduced where appropriate.
+
+The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : arrange_disable_model_rotations

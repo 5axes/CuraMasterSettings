@@ -1,0 +1,10 @@
+
+
+# gradient_infill_min_flow
+Gradient Infill Min Flow
+
+
+# gradient_infill_min_flow description
+The minimum flow used when printing a gradient infill line. Expressed as a percentage of the normal infill line flow.
+
+The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : arrange_disable_model_rotations
