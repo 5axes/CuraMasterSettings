@@ -20,3 +20,12 @@ This setting configures which pattern will be used for the bottom side of the mo
 The concentric pattern tends to adhere much better to the build plate than other patterns, because the tension in the lines when they are shrinking is spread out in all directions. This prevents warping and improves the reliability of the print. Other patterns contract all in one direction.
 
 When printing with a raft, using the lines pattern tends to give a slightly stronger part. The lines are then also oriented such that they bridge the gaps between the raft lines well, creating a smoother bottom side.
+
+<!--if cura_version>=4.14-->
+
+Hilbert Curve
+----
+
+The Hilbert Curve infill pattern produces a Hilbert Curve style pattern.
+
+<!--endif-->
