@@ -1,6 +1,4 @@
-
-# 
-Bridge Third Skin Overlap Percentage
+# Bridge Third Skin Overlap Percentage
 
 
 # bridge_skin_overlap_3 description

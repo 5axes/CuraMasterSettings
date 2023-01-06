@@ -1,6 +1,4 @@
-
-# 
-Bridge Skin Jerk
+# Bridge Skin Jerk
 
 
 # bridge_skin_jerk description

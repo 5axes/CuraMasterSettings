@@ -1,6 +1,4 @@
-
-# 
-Bridge Skin Overlap Percentage
+# Bridge Skin Overlap Percentage
 
 
 # bridge_skin_overlapdescription

@@ -1,7 +1,4 @@
-
-
-# 
-Z Seam Not Over Air
+# Z Seam Not Over Air
 
 
 # z_seam_not_over_air description

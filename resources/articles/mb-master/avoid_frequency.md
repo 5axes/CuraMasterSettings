@@ -1,7 +1,4 @@
-
-
-# 
-Avoid Frequency
+# Avoid Frequency
 
 
 # avoid_frequency description

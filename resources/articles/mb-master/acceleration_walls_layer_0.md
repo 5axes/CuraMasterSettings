@@ -1,5 +1,4 @@
-# 
-Initial Layer Wall Acceleration
+# Initial Layer Wall Acceleration
 
 
 # acceleration_walls_layer_0 description

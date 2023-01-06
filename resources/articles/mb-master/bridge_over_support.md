@@ -1,6 +1,4 @@
-
-# 
-Bridge Over Support
+# Bridge Over Support
 
 
 # bridge_over_support description

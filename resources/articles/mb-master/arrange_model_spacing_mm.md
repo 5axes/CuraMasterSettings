@@ -1,6 +1,4 @@
-
-# 
-Model Spacing Distance
+# Model Spacing Distance
 
 
 # arrange_model_spacing_mm description

@@ -1,5 +1,4 @@
-# xy_offset_taper_layers
-Horizontal Expansion Taper Layers
+# Horizontal Expansion Taper Layers
 
 
 # xy_offset_taper_layers description

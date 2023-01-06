@@ -1,6 +1,4 @@
-
-# 
-Bridge Skin Acceleration
+# Bridge Skin Acceleration
 
 
 # bridge_skin_acceleration description

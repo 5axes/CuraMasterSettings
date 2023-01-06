@@ -1,7 +1,4 @@
-
-
-# 
-Bridge Skin Overlap
+# Bridge Skin Overlap
 
 
 # bridge_skin_overlap_mm description

@@ -1,5 +1,4 @@
-# 
-Bridge Extend Floating Walls
+# Bridge Extend Floating Walls
 
 
 # bridge_extend_floating_walls description

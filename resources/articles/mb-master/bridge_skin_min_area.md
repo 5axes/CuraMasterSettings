@@ -1,6 +1,4 @@
-
-# 
-Minimum Bridge Skin Area
+# Minimum Bridge Skin Area
 
 
 # bridge_skin_min_area description

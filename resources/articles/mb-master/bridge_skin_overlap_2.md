@@ -1,6 +1,4 @@
-
-# 
-Bridge Second Skin Overlap Percentage
+# Bridge Second Skin Overlap Percentage
 
 
 # bridge_skin_overlap_2 description
