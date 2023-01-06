@@ -1,6 +1,4 @@
-
-# 
-Maximum Spiralized Line Width
+# Maximum Spiralized Line Width
 
 
 # spiralize_max_line_width description

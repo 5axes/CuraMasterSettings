@@ -1,6 +1,4 @@
-
-# 
-Minimum Gap Area
+# Minimum Gap Area
 
 
 # min_gap_area description

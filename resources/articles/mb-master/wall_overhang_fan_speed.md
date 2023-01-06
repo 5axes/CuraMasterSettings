@@ -1,10 +1,8 @@
+# Overhanging Wall Fan Speed
 
 
-# 
-Overhanging Wall Fan Speed
+## Description
 
-
-# wall_overhang_fan_speed description
 Percentage fan speed to use when printing overhanging walls.
 
 The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : wall_overhang_fan_speed

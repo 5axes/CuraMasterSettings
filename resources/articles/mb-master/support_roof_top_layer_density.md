@@ -1,7 +1,4 @@
-
-
-# 
-Support Roof Top Layer Density
+# Support Roof Top Layer Density
 
 
 # support_roof_top_layer_density description

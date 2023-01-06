@@ -1,7 +1,4 @@
-
-
-# 
-Support Bottom Wall Line Count
+# Support Bottom Wall Line Count
 
 
 # support_bottom_wall_count description

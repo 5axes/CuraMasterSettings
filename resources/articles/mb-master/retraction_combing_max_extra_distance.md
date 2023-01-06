@@ -1,6 +1,4 @@
-
-# 
-Max Comb Extra Distance
+# Max Comb Extra Distance
 
 
 # retraction_combing_max_extra_distance description

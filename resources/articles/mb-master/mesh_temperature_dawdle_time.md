@@ -1,7 +1,4 @@
-
-
-# 
-Mesh Dawdle Time
+# Mesh Dawdle Time
 
 
 # mesh_temperature_dawdle_time description

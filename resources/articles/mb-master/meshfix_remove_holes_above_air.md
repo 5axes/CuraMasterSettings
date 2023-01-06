@@ -1,6 +1,4 @@
-
-# 
-Remove Holes Above Air
+# Remove Holes Above Air
 
 
 # meshfix_remove_holes_above_air description

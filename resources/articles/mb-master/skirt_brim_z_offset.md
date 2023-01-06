@@ -1,6 +1,4 @@
-
-# 
-Skirt/Brim Z Offset
+# Skirt/Brim Z Offset
 
 
 # skirt_brim_z_offset description

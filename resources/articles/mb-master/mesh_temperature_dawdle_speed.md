@@ -1,6 +1,4 @@
-
-# 
-Mesh Dawdle Speed
+# Mesh Dawdle Speed
 
 
 # mesh_temperature_dawdle_speed description

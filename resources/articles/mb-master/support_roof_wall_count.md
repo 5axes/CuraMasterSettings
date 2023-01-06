@@ -1,6 +1,4 @@
-
-# 
-Support Roof Wall Line Count
+# Support Roof Wall Line Count
 
 
 # support_roof_wall_count description

@@ -1,7 +1,4 @@
-
-
-# 
-Mesh Temperature Delta
+# Mesh Temperature Delta
 
 
 # mesh_temperature_delta description

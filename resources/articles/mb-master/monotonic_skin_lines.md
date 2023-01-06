@@ -1,6 +1,4 @@
-
-# 
-Monotonic Skin Lines (mb-master)
+# Monotonic Skin Lines (mb-master)
 
 
 # monotonic_skin_lines description

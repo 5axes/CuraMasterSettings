@@ -1,6 +1,4 @@
-
-# 
-Reverse Monotonic Line Order
+# Reverse Monotonic Line Order
 
 
 # monotonic_skin_lines_reversed description

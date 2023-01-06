@@ -1,6 +1,4 @@
-
-# 
-Skin Lines Max Flow
+# Skin Lines Max Flow
 
 
 # skin_lines_max_flow_boost description

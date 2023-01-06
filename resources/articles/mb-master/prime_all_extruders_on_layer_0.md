@@ -1,6 +1,4 @@
-
-# 
-Prime All Extruders Used On Initial Layer
+# Prime All Extruders Used On Initial Layer
 
 
 # prime_all_extruders_on_layer_0 description

@@ -1,22 +1,14 @@
+# Support Pattern Resolution
 
 
-# 
-Support Pattern Resolution
-
-
-# support_pattern_resolution description
+## Description
 The resolution of the support pattern of the print. High resolution produces the most accurate pattern, low resolution generates the fewest lines.
 
 
-# support_pattern_resolution option high_resolution
-High
+## Support Pattern Resolution option 
 
-
-# support_pattern_resolution option medium_resolution
-Medium
-
-
-# support_pattern_resolution option low_resolution
-Low
+- High
+- Medium
+- Low
 
 The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : support_pattern_resolution

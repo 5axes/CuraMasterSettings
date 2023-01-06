@@ -1,6 +1,4 @@
-
-# 
-Maximum compensated travel distance
+# Maximum compensated travel distance
 
 
 # skin_lines_boost_max_travel_len description

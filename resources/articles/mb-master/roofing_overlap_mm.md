@@ -1,7 +1,4 @@
-
-
-# 
-Top Surface Skin Overlap
+# Top Surface Skin Overlap
 
 
 # roofing_overlap_mm description

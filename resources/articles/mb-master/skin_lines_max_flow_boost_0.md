@@ -1,6 +1,4 @@
-
-# 
-Skin Lines Initial Layer Max Flow
+# Skin Lines Initial Layer Max Flow
 
 
 # skin_lines_max_flow_boost_0 description

@@ -1,7 +1,4 @@
-
-
-# 
-Initial Layer Wall Speed
+# Initial Layer Wall Speed
 
 
 # speed_walls_layer_0 description

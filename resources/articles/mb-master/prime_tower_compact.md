@@ -1,7 +1,4 @@
-
-
-# 
-Compact Prime Tower
+# Compact Prime Tower
 
 
 # prime_tower_compact description

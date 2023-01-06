@@ -1,7 +1,4 @@
-
-
-# 
-Disable combing on the initial layer
+# Disable combing on the initial layer
 
 
 # travel_no_combing_on_initial_layer description

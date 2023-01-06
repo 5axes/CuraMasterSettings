@@ -1,6 +1,4 @@
-
-# 
-Travel Compensate Skin Lines
+# Travel Compensate Skin Lines
 
 
 # skin_lines_boost_flow description

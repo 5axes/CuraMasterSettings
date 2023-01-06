@@ -1,6 +1,4 @@
-
-# 
-Travel Compensation Scaling Factor
+# Travel Compensation Scaling Factor
 
 
 # skin_lines_boost_flow_scaling description

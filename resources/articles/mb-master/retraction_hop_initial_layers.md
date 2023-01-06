@@ -1,6 +1,4 @@
-
-# 
-Z Hop Initial Layers
+# Z Hop Initial Layers
 
 
 # retraction_hop_initial_layers description

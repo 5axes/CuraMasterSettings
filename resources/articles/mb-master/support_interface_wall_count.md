@@ -1,7 +1,4 @@
-
-
-# 
-Support Interface Wall Line Count
+# Support Interface Wall Line Count
 
 
 # support_interface_wall_count description
