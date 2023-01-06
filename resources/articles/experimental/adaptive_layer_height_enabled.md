@@ -42,7 +42,7 @@ However this feature can introduce a number of problems as well.
   * [Tower Roof Angle](../support/support_tower_roof_angle.md)
   * [Ooze Shield Angle](../dual/ooze_shield_angle.md)
   * [Maximum Model Angle](../experimental/conical_overhang_angle.md)
-<!--if cura_version>=4.14-->  
-  * [Minimise Gyroid Holes](../infill/infill_constrain_gyroid_pitch.md)
-<!--endif-->  
+	<!--if cura_version>=4.14-->  
+	  * [Minimise Gyroid Holes](../infill/infill_constrain_gyroid_pitch.md)
+	<!--endif-->  
   
