@@ -1,7 +1,6 @@
 # Ignore Support Below Overhangs
 
-
-## description
+## Description
 
 When enabled, support is ignored and so overhangs over support are printed using overhanging wall settings.
 

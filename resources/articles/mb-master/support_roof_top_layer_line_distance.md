@@ -1,7 +1,6 @@
 # Support Roof Top Layer Line Distance
 
-
-## description
+## Description
 
 Distance between the printed support lines on the top roof layer. This setting is calculated by the Support Roof Top Layer Density, but can be adjusted separately.
 

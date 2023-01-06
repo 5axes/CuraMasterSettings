@@ -1,6 +1,6 @@
 #  Visible Top Skins Have Only One Wall
 
-## description
+## Description
 
 When enabled, visible top skins are surrounded by only one wall.
 

@@ -1,7 +1,6 @@
 # Initial Layer Walls Jerk
 
-
-# jerk_walls_layer_0 description
+## Description
 The maximum instantaneous velocity change during the printing of walls in the initial layer.
 
 

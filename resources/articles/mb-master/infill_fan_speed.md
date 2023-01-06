@@ -1,7 +1,6 @@
 # Infill Fan Speed
 
-
-# infill_fan_speed description
+## Description
 Percentage fan speed to use when printing infill. Using a reduced or even zero fan speed when printing infill can make the part stronger.
 
 
