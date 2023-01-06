@@ -318,24 +318,31 @@ The lightning infill pattern is a jagged minimal pattern that only aims to suppo
 Schwarz P
 ----
 
-The Schwarz P infill pattern produces a wavy pattern that alternates directions.
-* Produces one volume which is completely permeable to fluids, making this a useful pattern for dissolvable materials.
+The Schwarz P infill pattern produces a wavy pattern that alternates directions. They are named 'primitive' because it has two intertwined congruent labyrinths, each with the shape of an inflated tubular version of the simple cubic lattice. While the standard P surface has cubic symmetry the unit cell can be any rectangular box, producing a family of minimal surfaces with the same topology.
+
+It can be approximated by the implicit surface : ***cos(x)+ cos(y)+ cos(z)=0***
+
+* The P surface has been considered for prototyping with a high surface-to-volume ratio and porosity.
 * Equally strong in all directions, but not very stiff. This makes it useful for flexible materials, but the result will be somewhat harder, less squishy, than the Cross (3D) infill patterns.
 * There are no overlapping lines in this pattern, which allows printing with materials with higher surface tension more easily and makes the infill very reliable and consistent.
 * Resistant to shearing.
 * Takes a long time to slice and produces large g-code files. For some printers it may be hard to keep up with the many g-code commands per second, and it may be hard to keep up with over serial connection on low baud rates.
 
+Wikipedia page on [Schwarz minimal surface](https://en.wikipedia.org/wiki/Schwarz_minimal_surface).
 
 Schwarz D
 ----
 
-The Schwarz D infill pattern produces a wavy pattern that alternates directions.
-* Produces one volume which is completely permeable to fluids, making this a useful pattern for dissolvable materials.
+The Schwarz D infill pattern produces a wavy pattern that alternates directions. They are named 'diamond' because it has two intertwined congruent labyrinths, each having the shape of an inflated tubular version of the diamond bond structure. It is sometimes called the F surface in the literature.
+
+It can be approximated by the implicit surface : ***sin(x)sin(y)sin(z)+sin(x)cos(y)cos(z)+cos(x)sin(y)cos(z)+cos(x)cos(y)sin(z)=0.***
+
 * Equally strong in all directions, but not very stiff. This makes it useful for flexible materials, but the result will be somewhat harder, less squishy, than the Cross (3D) infill patterns.
 * There are no overlapping lines in this pattern, which allows printing with materials with higher surface tension more easily and makes the infill very reliable and consistent.
 * Resistant to shearing.
 * Takes a long time to slice and produces large g-code files. For some printers it may be hard to keep up with the many g-code commands per second, and it may be hard to keep up with over serial connection on low baud rates.
 
+Wikipedia page on [Schwarz minimal surface](https://en.wikipedia.org/wiki/Schwarz_minimal_surface).
 
 Hilbert Curve
 ----
@@ -353,5 +360,6 @@ Discrete Lines
 
 This infill pattern has been requested by a user who has specific requirements regarding the placement of infill lines. They need to be able to explicitly control where the infill lines are positioned. To achieve this, the infill lines are specified by either a literal JSON string or a file containing one or more JSON objects, each object specifying the characteristics of a region of infill.
 
+The infill pattern mus be definied via the [Discrete Lines Infill Pattern](../mb-master/discrete_lines_infill_definition.md)
 
 <!--endif-->
