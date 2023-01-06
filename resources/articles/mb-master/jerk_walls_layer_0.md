@@ -1,4 +1,4 @@
-# jerk_walls_layer_0
+# 
 Initial Layer Walls Jerk
 
 
@@ -6,4 +6,4 @@ Initial Layer Walls Jerk
 The maximum instantaneous velocity change during the printing of walls in the initial layer.
 
 
-The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : arrange_disable_model_rotations
+The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : jerk_walls_layer_0

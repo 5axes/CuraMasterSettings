@@ -1,5 +1,4 @@
-Discrete Lines Infill Pattern
-=
+# Discrete Lines Infill Pattern
 
 This paper provides an introduction to the new experimental **_Discrete Lines infill pattern_** that appeared in the release 4.20.5.
 

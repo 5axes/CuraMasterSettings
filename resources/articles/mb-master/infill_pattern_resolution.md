@@ -1,6 +1,6 @@
 
 
-# infill_pattern_resolution
+# 
 Infill Pattern Resolution
 
 
@@ -19,4 +19,4 @@ Medium
 # infill_pattern_resolution option low_resolution
 Low
 
-The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : arrange_disable_model_rotations
+The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : infill_pattern_resolution
