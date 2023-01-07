@@ -1,0 +1,25 @@
+[
+  {
+    "r": [ 17, 20 ],
+    "spokes": 20
+  }
+]
+[
+  {
+    "ypitch": "from-settings",
+    "rmax": 20,
+    "rmin": 15,
+    "scattered": true
+  },
+  {
+    "xpitch": "from-settings",
+    "waveform": "triangle",
+    "wavelength": 8,
+    "amplitude": 2
+  }
+]
+[
+  {
+    "contours": "from-settings"
+  }
+]
