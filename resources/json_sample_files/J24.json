@@ -1,5 +1,14 @@
 [
-  {
-    "contours": "from-settings"
-  }
+ {
+ "ypitch": "from-settings",
+ "rmax": 20,
+ "rmin": 15,
+ "scattered": true
+ },
+ {
+ "xpitch": "from-settings",
+ "waveform": "triangle",
+ "wavelength": 8,
+ "amplitude": 2
+ }
 ]
