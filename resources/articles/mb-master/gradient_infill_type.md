@@ -1,6 +1,5 @@
 # Gradient Infill Type
 
-
 The type of gradient infill to use. All types modify the infill line flow in proportion to the distance to the model outline. At the model outline, the infill line flow will be gradient infill max flow. Away from the model outline, the infill line flow will be gradient infill min flow. 1D simply uses the distance to the nearest end of the current infill line. 2D differs in that the distance is measured to the nearest wall on the same layer. 2D+ also takes into account the distance to the build plate and the distance to the top layer of the model. 3D uses the distance to the nearest wall or skin on any layer.
 This type in gradient based infil is based on the idea from [CNCKitchen](https://www.cnckitchen.com/blog/gradient-infill-for-3d-prints) and [Github repository](https://github.com/CNCKitchen/GradientInfill).
 
@@ -26,6 +25,7 @@ The speed modification scheme to use when printing gradient infill. Fast alters 
 
 
 ## Gradient Infill Speed Scheme option 
+- None
 - Fast
 - Slow
 - On Flow Change
@@ -34,9 +34,9 @@ The speed modification scheme to use when printing gradient infill. Fast alters 
 
 The fast and slow schemes both modify the print speed so that throughout all of the infill, the extruder will turn at the same speed. So for both schemes, when the flow rate doubles, the speed has to halve, and so on.
 
-The fast scheme uses the normal print speed for normal flow so if that normal infill speed is 100 mm/S you will indeed get 200 mm/S where the flow is 50% and 50 mm/S where the flow is 200%. This is assuming the infill speed factor is 100%. If you modify that the speed changes will be less or more depending on whether you reduce the speed factor or increase it. Note that changing the speed factor from 100% will make the extruder rate change.
+The fast scheme uses the normal print speed for normal flow so if that normal infill speed is 100 mm/s you will indeed get 200 mm/s where the flow is 50% and 50 mm/s where the flow is 200%. This is assuming the infill speed factor is 100%. If you modify that the speed changes will be less or more depending on whether you reduce the speed factor or increase it. Note that changing the speed factor from 100% will make the extruder rate change.
 
-The slow scheme uses the normal print speed for the lowest flow and so all other flows will make the print speed reduce. So in your example, with the slow scheme, at 50% flow the speed will be 100 mm/S, at 100% flow the speed will be 50 mm/S and at 200% flow, the speed will be 25 mm/S.
+The slow scheme uses the normal print speed for the lowest flow and so all other flows will make the print speed reduce. So in your example, with the slow scheme, at 50% flow the speed will be 100 mm/s, at 100% flow the speed will be 50 mm/s and at 200% flow, the speed will be 25 mm/s.
 
 [Implement gradient infill Discussion on Github](https://github.com/smartavionics/Cura/issues/38)
 

@@ -6,6 +6,4 @@ Going through sharp corners at great speeds not only causes the print head to vi
 
 Additionally, reducing the jerk will normally make the printer deposit more material in sharp corners because the nozzle slows down while the material flow has some delay in when the flow is reduced. These sharp corners are often where the print lets go of the build plate first due to warping. Depositing some extra material in those corners is advantageous then, since it'll make the corners stick better.
 
-
-
 The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : jerk_walls_layer_0
