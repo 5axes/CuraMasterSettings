@@ -2,7 +2,7 @@ $fs = 0.5;
 $fa = 1;
 
 difference() {
-	cylinder(r=30, h=20);
+	cylinder(r=30, h=20 );
 	cylinder(r=12, h=50);
 
 	translate([24, 0, 0]) {
