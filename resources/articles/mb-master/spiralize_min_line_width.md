@@ -1,6 +1,5 @@
 # Minimum Spiralized Line Width
 
-## Description
 The minimum width of a spiralized contour line as a percentage of the normal line width. Setting this to a value less than 100 enables variable width spiralized contours.
 
 

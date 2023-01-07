@@ -5,7 +5,7 @@ The type of gradient infill to use. All types modify the infill line flow in pro
 This type in gradient based infil is based on the idea from [CNCKitchen](https://www.cnckitchen.com/blog/gradient-infill-for-3d-prints) and [Github repository](https://github.com/CNCKitchen/GradientInfill).
 
 
-![CncKitchen Gradient Infill](CncKitchenGradientInfill.png)
+![CncKitchen Gradient Infill](../images-mb/CncKitchenGradientInfill.png)
 
 ## Option
 

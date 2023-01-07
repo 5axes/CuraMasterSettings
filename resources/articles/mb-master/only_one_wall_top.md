@@ -1,9 +1,7 @@
 #  Visible Top Skins Have Only One Wall
 
-## Description
 
 When enabled, visible top skins are surrounded by only one wall.
-
 
 You can also specify the option [Bottom Skin Has Only One Wall](only_one_wall_bottom.md) 
 

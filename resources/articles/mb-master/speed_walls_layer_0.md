@@ -1,6 +1,5 @@
 # Initial Layer Wall Speed
 
-## Description
 The speed used to print walls in the initial layer. Reducing this speed may increase adhesion to the build plate while still allowing the skin areas to be printed at a faster speed.
 
 

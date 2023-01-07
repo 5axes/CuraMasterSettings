@@ -1,9 +1,6 @@
 # Support Pattern Resolution
 
-
-## Description
 The resolution of the support pattern of the print. High resolution produces the most accurate pattern, low resolution generates the fewest lines.
-
 
 ## Support Pattern Resolution option 
 
