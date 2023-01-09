@@ -180,3 +180,13 @@ The gyroid pattern is a wavy one, with a curve wiggling back and forth. The curv
 * The air between the support is a single volume. When printing with soluble support materials, this allows the solvent (water, ethanol or otherwise) to protrude to all the innards of the support structure, even if there is a brim underneath. This allows it to dissolve the support faster.
 * Supports all lines in the overhang evenly, regardless of their directions.
 <!--endif-->
+
+
+<!--if cura_version >= 4.20-->
+Honeycomb
+----
+![Honeycomb](../images/support_pattern_gyroid.png)
+
+The Honeycomb pattern. 
+
+<!--endif-->
