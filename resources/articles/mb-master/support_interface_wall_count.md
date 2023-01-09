@@ -6,7 +6,7 @@ The number of walls with which to surround support interface. Adding a wall can 
 
 ![Support Interface One Wall Line](../images-mb/support_interface_wall_count_1.png)
 
-This parameter can be subdivided into two applications, one for setting the [Support Bottom Wall line Count](support_bottom_wall_line_count.md), the other for the [Support Roof Wall line Count](support_roof_wall_line_count.md).
+This parameter can be subdivided into two applications, one for setting the [Support Bottom Wall line Count](support_bottom_wall_count.md), the other for the [Support Roof Wall line Count](support_roof_wall_count.md).
 
 
 The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : support_interface_wall_count
