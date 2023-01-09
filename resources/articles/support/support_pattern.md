@@ -182,11 +182,13 @@ The gyroid pattern is a wavy one, with a curve wiggling back and forth. The curv
 <!--endif-->
 
 
-<!--if cura_version >= 4.20-->
+<!--if cura_version>=4.20-->
+
 Honeycomb
 ----
-![Honeycomb](../images/support_pattern_gyroid.png)
+![Honeycomb](../images/support_pattern_honeycomb.png)
 
 The Honeycomb pattern. 
+
 
 <!--endif-->
