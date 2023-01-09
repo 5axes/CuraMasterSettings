@@ -28,4 +28,6 @@ Hilbert Curve
 
 The Hilbert Curve infill pattern produces a Hilbert Curve style pattern.
 
+![Hilbert Curve](../images-mb/Hilbert_Curve.png)
+
 <!--endif-->
