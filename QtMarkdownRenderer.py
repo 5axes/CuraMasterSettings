@@ -62,8 +62,9 @@ class QtMarkdownRenderer(mistune.Renderer):
 		if "://" not in link and link.endswith(".json") :  # Link to a Json file
 			# UM.Logger.Logger.log("d", "JSON File: {base}".format(base=os.path.basename(link)))
 			link = os.path.join(self._files_path, os.path.basename(link))
-			# UM.Logger.Logger.log("d", "JSON link: {link}".format(link=link))
-			return "<a href=file:\"{link}\"><font color=\"{colour}\">{text}</font></a>".format(colour=link_colour, link=link, text=text)
+			cmd = "<a href=file:\"{link}\"><font color=\"{colour}\">{text}</font></a>".format(colour=link_colour, link=link, text=text)
+			# UM.Logger.Logger.log("i", "File cmd: {cmd}".format(cmd=cmd))
+			return cmd
 
 		if not title :
 			return "<a href=\"{link}\"><font color=\"{colour}\">{text}</font></a>".format(colour=link_colour, link=link, text=text)
