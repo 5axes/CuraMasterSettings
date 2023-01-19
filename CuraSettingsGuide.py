@@ -332,6 +332,8 @@ class CuraSettingsGuide(Extension, QObject):
 			return self.articles[article_id][language]
 
 		images_path = os.path.join(os.path.dirname(__file__), "resources", "articles", "images")
+		files_path = os.path.join(os.path.dirname(__file__), "resources", "sample_files")
+        
 		try:
 			if language not in self.article_locations[article_id]:
 				language = "en_US"  # Fall back to English if the preferred language is not available.
@@ -352,7 +354,7 @@ class CuraSettingsGuide(Extension, QObject):
 		self.articles_source[language][article_id] = markdown_str
 
 		if images_path not in self._markdown_per_folder:
-			renderer = QtMarkdownRenderer.QtMarkdownRenderer(images_path)
+			renderer = QtMarkdownRenderer.QtMarkdownRenderer(images_path,files_path)
 			self._markdown_per_folder[images_path] = mistune.Markdown(renderer=renderer)  # Renders the Markdown articles into the subset of HTML supported by Qt.
 
 		# Pre-process so that comments and conditionals don't influence the business.

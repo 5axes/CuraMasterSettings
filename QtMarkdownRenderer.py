@@ -30,13 +30,14 @@ class QtMarkdownRenderer(mistune.Renderer):
 	of Github.
 	"""
 
-	def __init__(self, images_path):
+	def __init__(self, images_path, files_path):
 		"""
 		Creates a renderer with a certain relative path for resources.
 		:param images_path: The path to which relative paths should be
 		dereferenced.
 		"""
 		super().__init__()
+		self._files_path = files_path
 		self._images_path = images_path
 
 	def link(self, link, title, text):
@@ -55,10 +56,15 @@ class QtMarkdownRenderer(mistune.Renderer):
 		link = mistune.escape_link(link)
 		link_colour = UM.Qt.Bindings.Theme.Theme.getInstance().getColor("text_link").name()
 
-		if "://" not in link and link.endswith(".md"):  # Link to a different article.
+		if "://" not in link and link.endswith(".md") :  # Link to a different article 
 			link = os.path.join(self._images_path, link)
 
-		if not title:
+		if "://" not in link and link.endswith(".json") :  # Link to a Json file
+			link = os.path.join(self._files_path, link)
+			UM.Logger.Logger.log("d", "JSON link: {link}".format(link=link))
+			return "<a href=file:\"{link}\"><font color=\"{colour}\">{text}</font></a>".format(colour=link_colour, link=link, text=text)
+
+		if not title :
 			return "<a href=\"{link}\"><font color=\"{colour}\">{text}</font></a>".format(colour=link_colour, link=link, text=text)
 		title = mistune.escape(title, quote=True)
 		return "<a href=\"{link}\" title=\"{title}\"><font color=\"{colour}\">{text}</font></a>".format(colour=link_colour, title=title, link=link, text=text)
