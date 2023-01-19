@@ -31,7 +31,7 @@ All the examples now are specified as a JSON file. Here's a really simple exampl
 
 ![Discrete Lines Infill Pattern](../images-mb/discrete_lines_infill_definition_04.png)
 
-*This sample code can be found on the following link : [J1.json](J1.json)*
+*This sample code can be found on the following link : [J1.json](../../sample_files/J1.json)*
 
 By default, the infill is clipped to fit the outline of the model being filled but you can also specify limits in all three, (x, y & z) dimensions. So here we show repeated lines that are limited to a central region of our model...
 
@@ -43,7 +43,7 @@ By default, the infill is clipped to fit the outline of the model being filled b
 
 ![Discrete Lines Infill Pattern](../images-mb/discrete_lines_infill_definition_05.png)
 
-*This sample code can be found on the following link : [J2.json](J2.json)*
+*This sample code can be found on the following link : [J2.json](../../sample_files/J2.json)*
 
 We can limit in the y direction also...
 
@@ -56,7 +56,7 @@ We can limit in the y direction also...
 
 ![Discrete Lines Infill Pattern](../images-mb/discrete_lines_infill_definition_06.png)
 
-*This sample code can be found on the following link : [J4.json](J4.json)*
+*This sample code can be found on the following link : [J4.json](../../sample_files/J4.json)*
 
 The definition file can contain not just a single definition but an array of definitions and they are processed sequentially. This following example shows the x lines in the central region as before but also, now has y lines in the outer regions as well...
 
@@ -73,7 +73,7 @@ The definition file can contain not just a single definition but an array of def
 
 ![Discrete Lines Infill Pattern](../images-mb/discrete_lines_infill_definition_07.png)
 
-*This sample code can be found on the following link : [J5.json](J5.json)*
+*This sample code can be found on the following link : [J5.json](../../sample_files/J5.json)*
 
 ### Cliping area
 
@@ -93,7 +93,7 @@ You will have noticed that the y lines are excluded from the x lines region and 
 
 ![Discrete Lines Infill Pattern](../images-mb/discrete_lines_infill_definition_08.png)
 
-*This sample code can be found on the following link : [J6.json](J6.json)*
+*This sample code can be found on the following link : [J6.json](../../sample_files/J6.json)*
 
 ### enable
 
@@ -115,7 +115,7 @@ Setting "zigzag" to true joins up the ends of the lines where they meet the mode
 Here's the plan view of that with the shell not visible...  
 ![Discrete Lines Infill Pattern "zigzag"](../images-mb/discrete_lines_infill_definition_09.png)
 
-*This sample code can be found on the following link : [J7.json](J7.json)*
+*This sample code can be found on the following link : [J7.json](../../sample_files/J7.json)*
 
 Finally, there's the "angle" member that let's you specify a rotation of the lines...
 
@@ -128,7 +128,7 @@ Finally, there's the "angle" member that let's you specify a rotation of the lin
 
 ![Discrete Lines Infill Pattern "angle"](../images-mb/discrete_lines_infill_definition_10.png)
 
-*This sample code can be found on the following link : [J8.json](J8.json)*
+*This sample code can be found on the following link : [J8.json](../../sample_files/J8.json)*
 
 # Currently implemented members
 
@@ -242,7 +242,7 @@ Latest addition: the "xpitch" and "ypitch" values can either be a single number,
 
 And this is what you get (sans shell for clarity)...
 ![Discrete Lines Infill Pattern "xpitch" and "ypitch"](../images-mb/discrete_lines_infill_definition_12.png)
-*This sample code can be found on the following link : [J10.json](J10.json)*
+*This sample code can be found on the following link : [J10.json](../../sample_files/J10.json)*
 
 ## Variable picth density
 
@@ -257,7 +257,7 @@ Here's another example showing the infill density going from 10% at the bottom o
 
 ![Discrete Lines Infill Pattern "pitch": 10](../images-mb/discrete_lines_infill_definition_13.png) ![Discrete Lines Infill Pattern "pitch": 0.4](../images-mb/discrete_lines_infill_definition_14.png)
 
-*This sample code can be found on the following link : [J11.json](J11.json)*
+*This sample code can be found on the following link : [J11.json](../../sample_files/J11.json)*
 
 # Waveform generation
 
@@ -275,7 +275,7 @@ If straight line infill is too boring, you can also have wiggly lines...
 
 ![Discrete Lines Infill Pattern "waveform": "sine"](../images-mb/discrete_lines_infill_definition_15.png)
 
-*This sample code can be found on the following link : [J12.json](J12.json)*
+*This sample code can be found on the following link : [J12.json](../../sample_files/J12.json)*
 
 The waveform shape can be specified as an array of amplitudes (between -1 and 1) like this...
 
@@ -291,7 +291,7 @@ The waveform shape can be specified as an array of amplitudes (between -1 and 1)
 
 ![Discrete Lines Infill Pattern array of amplitudes](../images-mb/discrete_lines_infill_definition_16.png)
 
-*This sample code can be found on the following link : [J13.json](J13.json)*
+*This sample code can be found on the following link : [J13.json](../../sample_files/J13.json)*
 
 Finally, because the waveform amplitude and wavelength can be varied with layer height you can achieve wacky stuff like this example where the sine wave amplitude goes from 0 to 5.
 
@@ -308,7 +308,7 @@ Here's a bottom view of that without the zigzags or shell...
 
 ![Discrete Lines Infill Pattern gradient "amplitude"](../images-mb/discrete_lines_infill_definition_17.png)
 
-*This sample code can be found on the following link : [J14.json](J14.json)*
+*This sample code can be found on the following link : [J14.json](../../sample_files/J14.json)*
 
 So there's (almost) straight lines at the bottom and sine waves at the top.
 
@@ -330,7 +330,7 @@ But that produces sloped lines between the horizontal portions of the waveform, 
 
 ![Discrete Lines Infill Pattern waveform zigzag ](../images-mb/discrete_lines_infill_definition_18.png)
 
-*This sample code can be found on the following link : [J15.json](J15.json)*
+*This sample code can be found on the following link : [J15.json](../../sample_files/J15.json)*
 
 I you want to specify that a transition should take zero time. The current scheme is to mark amplitude value changes that should occur "instantaneously" with a string element in the array, so the above example would now look like:
 
@@ -348,7 +348,7 @@ The "" elements are indicating that the transitions from -1 to 1 and 1 to -1 sho
 
 ![Discrete Lines Infill Pattern zigzag straight transition](../images-mb/discrete_lines_infill_definition_19.png)
 
-*This sample code can be found on the following link : [J16.json](J16.json)*
+*This sample code can be found on the following link : [J16.json](../../sample_files/J16.json)*
 
 
 ### Sample waveform code
@@ -378,7 +378,7 @@ Don't know if i will ever use a motif like this one.. But you will find some sam
 
 ![Discrete Lines Infill Pattern](../images-mb/image040.png)
 
-*This sample code can be found on the following link : [J17.json](J17.json)*
+*This sample code can be found on the following link : [J17.json](../../sample_files/J17.json)*
 
 ### 5axes
 
@@ -415,7 +415,7 @@ If you abuse also of the double quotation mark can also give you some strange ( 
 
 ![Discrete Lines Infill Pattern "scattered" "pitch": "from-settings" ](../images-mb/discrete_lines_infill_definition_20.png)
 
-*This sample code can be found on the following link : [J19.json](J19.json)*
+*This sample code can be found on the following link : [J19.json](../../sample_files/J19.json)*
 
 With specified user pitch.
 
@@ -428,7 +428,7 @@ With specified user pitch.
 
 ![Discrete Lines Infill Pattern Discrete Lines Infill Pattern "scattered" "pitch": 3 ](../images-mb/discrete_lines_infill_definition_21.png)
 
-*This sample code can be found on the following link : [J20.json](J20.json)*
+*This sample code can be found on the following link : [J20.json](../../sample_files/J20.json)*
 ## Sample Scattered code
 
 `[
@@ -451,7 +451,7 @@ With specified user pitch.
 
 ![Discrete Lines Infill Pattern Scattered Mode](../images-mb/discrete_lines_infill_definition_22.png)
 
-*This sample code can be found on the following link : [J21.json](J21.json)*
+*This sample code can be found on the following link : [J21.json](../../sample_files/J21.json)*
 
 # "rings" and "spokes" member
 
@@ -466,7 +466,7 @@ Next we have "rings" and "spokes" which let you create spiderweb like infill...
 
 ![Discrete Lines Infill Pattern "rings" and "spokes"](../images-mb/discrete_lines_infill_definition_23.png)
 
-*This sample code can be found on the following link : [J22.json](J22.json)*
+*This sample code can be found on the following link : [J22.json](../../sample_files/J22.json)*
 
 ## Offset the infill
 
@@ -489,7 +489,7 @@ The "r" member let's you specify individual radii for rings like this...
 
 ![Discrete Lines Infill Pattern r member](../images-mb/discrete_lines_infill_definition_25.png)
 
-*This sample code can be found on the following link : [J23.json](J23.json)*
+*This sample code can be found on the following link : [J23.json](../../sample_files/J23.json)*
 
 # rmin & rmax member
 
@@ -512,7 +512,7 @@ The "r" member let's you specify individual radii for rings like this...
 
 ![Discrete Lines Infill Pattern rmin & rmax](../images-mb/discrete_lines_infill_definition_26.png)
 
-*This sample code can be found on the following link : [J24.json](J24.json)*
+*This sample code can be found on the following link : [J24.json](../../sample_files/J24.json)*
 
 # Contours member
 
@@ -528,6 +528,6 @@ This image is using infill density of 20%, the above examples were using 10%.
 
 ![Discrete Lines Infill Pattern "contours" ](../images-mb/discrete_lines_infill_definition_27.png)
 
-*This sample code can be found on the following link : [J25.json](J25.json)*
+*This sample code can be found on the following link : [J25.json](../../sample_files/J25.json)*
 
 The following settings are defined in [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : discrete_lines_infill_definition
