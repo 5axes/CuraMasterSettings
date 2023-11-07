@@ -1,7 +1,8 @@
 # Bridge Wall End Boost
 
-This controls the amount the extrusion rate is increased immediately after a bridge wall ends. Increasing the extrusion rate can stop under-extrusion occurring at the start of the following line.
+Cela permet de contrôler l'augmentation du taux d'extrusion immédiatement après la fin d'un mur de pont. L'augmentation du taux d'extrusion peut empêcher la sous-extrusion au début de la ligne suivante.
 
 
 ![bridge_wall_end_boost 100%](../images-mb/bridge_wall_end_boost.svg)
+
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : bridge_wall_end_boost
