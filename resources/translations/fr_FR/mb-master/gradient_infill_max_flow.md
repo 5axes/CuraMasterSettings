@@ -1,5 +1,5 @@
 # Gradient Infill Max Flow
 
-The maximum flow used when printing a [gradient infill](gradient_infill_type.md) line. Expressed as a percentage of the normal [infill line flow](../material/infill_material_flow.md).
+Le débit maximum utilisé lors de l'impression d'une ligne [gradient infill](gradient_infill_type.md). Exprimé en pourcentage du débit normal [infill line flow](../material/infill_material_flow.md).
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : gradient_infill_max_flow

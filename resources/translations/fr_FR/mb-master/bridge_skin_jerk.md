@@ -1,5 +1,5 @@
 # Bridge Skin Jerk
 
-The maximum instantaneous velocity change with which all bridge skins are printed.
+Variation maximale de la vitesse instantanée avec laquelle toutes les peaux de pont sont imprimées.
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : bridge_skin_jerk

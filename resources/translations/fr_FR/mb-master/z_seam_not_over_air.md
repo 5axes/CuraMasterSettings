@@ -1,6 +1,6 @@
 # Z Seam Not Over Air
 
-When enabled, if the z seam location is above air, it is moved so that it is not above air (if possible).
+Lorsque cette option est activée, si l'emplacement de la couture en Z est au-dessus du vide, il est déplacé de manière à ce qu'il ne soit pas au-dessus du vide (dans la mesure du possible).
 
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : z_seam_not_over_air

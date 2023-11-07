@@ -1,6 +1,6 @@
 # Avoid Frequency
 
-When non-zero, this specifies a resonant frequency to be avoided when printing using the lines and zig zag patterns. To stop the print head oscillating at that frequency, the print speed is reduced where appropriate.
+Lorsqu'elle est non nulle, cette valeur indique une fréquence de résonance à éviter lors de l'impression de lignes et de motifs en zig-zag. Pour empêcher la tête d'impression d'osciller à cette fréquence, la vitesse d'impression est réduite le cas échéant.
 
 ![Speed modification due to Avoid Frequency modification](../../../articles/images-mb/avoid_frequency.jfif)
 

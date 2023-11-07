@@ -1,5 +1,5 @@
 # Minimum Bridge Skin Area
 
-Unsupported skin regions whose area is less than this will be printed using the normal skin settings. Larger unsupported skin regions will be printed using the bridge skin settings.
+Les parties extérieures non soutenues dont la surface est inférieure à cette valeur seront imprimées en utilisant les paramètres de peau normaux. Les parties extérieures non soutenues plus grandes seront imprimées en utilisant les paramètres de la peau de pont.
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : bridge_skin_min_area
