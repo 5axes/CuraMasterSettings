@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="roofing_overlap_mm.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 600 330"
+   height="330mm"
+   width="600mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="1592"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="g885"
+     inkscape:document-units="mm"
+     inkscape:cy="714.64285"
+     inkscape:cx="1220.549"
+     inkscape:zoom="0.35"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-56.551184,77.201635)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Calque 1">
+    <g
+       transform="matrix(0.26458333,0,0,0.29433012,57.889604,-34.188009)"
+       id="g961">
+      <g
+         transform="translate(135.71429,-141.26105)"
+         stroke-linejoin="round"
+         stroke-width="95"
+         fill="none"
+         id="g837">
+        <path
+           d="M 352.5,0 V 947.5 H 1300"
+           stroke="#ff0000"
+           id="path833" />
+        <path
+           d="M 452.5,0 V 847.5 H 1300"
+           stroke="#00ff00"
+           id="path835" />
+      </g>
+      <line
+         id="line839"
+         y2="-341.26105"
+         x2="935.71429"
+         y1="64.80896"
+         x1="529.64429"
+         style="stroke:#ffff00;stroke-width:150;stroke-linecap:round;stroke-opacity:1" />
+      <line
+         id="line841"
+         y2="-341.26105"
+         x2="1285.7142"
+         y1="361.76895"
+         x1="582.68433"
+         style="stroke:#ffff00;stroke-width:150;stroke-linecap:round;stroke-opacity:1" />
+      <line
+         id="line843"
+         y2="-341.26105"
+         x2="1635.7142"
+         y1="669.34894"
+         x1="625.10431"
+         style="stroke:#ffff00;stroke-width:150;stroke-linecap:round;stroke-opacity:1" />
+      <line
+         id="line845"
+         y2="8.7389498"
+         x2="1635.7142"
+         y1="669.34894"
+         x1="975.10431"
+         style="stroke:#ffff00;stroke-width:150;stroke-linecap:round;stroke-opacity:1" />
+      <line
+         id="line847"
+         y2="358.73895"
+         x2="1635.7142"
+         y1="669.34894"
+         x1="1325.1042"
+         style="stroke:#ffff00;stroke-width:150;stroke-linecap:round;stroke-opacity:1" />
+      <line
+         id="line851"
+         y2="-35.65424"
+         x2="638.02496"
+         y1="69.976456"
+         x1="524.4765"
+         style="stroke:#000000;stroke-width:17.9173;stroke-miterlimit:4;stroke-dasharray:none" />
+      <line
+         id="line853"
+         y2="304.7486"
+         x2="643.66913"
+         y1="368.12848"
+         x1="576.15796"
+         style="stroke:#000000;stroke-width:17.9173;stroke-miterlimit:4;stroke-dasharray:none" />
+      <line
+         id="line855"
+         y2="629.33893"
+         x2="672.57361"
+         y1="690.65808"
+         x1="608.24493"
+         style="stroke:#000000;stroke-width:17.9173;stroke-miterlimit:4;stroke-dasharray:none" />
+      <line
+         id="line857"
+         y2="652.89038"
+         x2="1005.9547"
+         y1="699.91241"
+         x1="955.10431"
+         style="stroke:#000000;stroke-width:17.9173;stroke-miterlimit:4;stroke-dasharray:none" />
+      <rect
+         style="stroke-width:0.845074"
+         x="1435.7142"
+         y="-141.26105"
+         width="700"
+         height="714.15002"
+         fill="#ffffff"
+         id="rect877" />
+      <g
+         transform="translate(5.7142858,-141.26105)"
+         font-family="sans-serif"
+         font-size="100px"
+         text-anchor="end"
+         id="g885">
+        <text
+           x="410"
+           y="150"
+           id="text879">0.8mm</text>
+        <text
+           x="410"
+           y="500"
+           id="text881">0.4mm</text>
+        <text
+           x="410"
+           y="850"
+           id="text883">0.2mm</text>
+      </g>
+      <g
+         transform="translate(135.71429,-141.26105)"
+         font-family="sans-serif"
+         font-size="100px"
+         id="g911">
+        <text
+           x="1500"
+           y="140"
+           id="text901">Paroii extérieur</text>
+        <text
+           x="1500"
+           y="290"
+           id="text903">Paroi intérieure</text>
+        <text
+           x="1500"
+           y="440"
+           id="text905">Peau</text>
+        <text
+           x="1500"
+           y="590"
+           id="text907">Chevauchement</text>
+      </g>
+      <rect
+         id="rect889"
+         fill="#ff0000"
+         height="100"
+         width="100"
+         y="-86.261047"
+         x="1485.7142"
+         style="stroke:#000000;stroke-width:10" />
+      <rect
+         id="rect891"
+         fill="#00ff00"
+         height="100"
+         width="100"
+         y="63.738953"
+         x="1485.7142"
+         style="stroke:#000000;stroke-width:10" />
+      <rect
+         id="rect893"
+         fill="#ffa500"
+         height="100"
+         width="100"
+         y="213.73895"
+         x="1485.7142"
+         style="fill:#fff91e;fill-opacity:1;stroke:#000000;stroke-width:10" />
+      <rect
+         id="rect895"
+         height="100"
+         width="100"
+         y="363.73895"
+         x="1485.7142"
+         style="stroke:#000000;stroke-width:10" />
+      <line
+         style="stroke:#000000;stroke-width:17.9173;stroke-miterlimit:4;stroke-dasharray:none"
+         x1="1298.2538"
+         y1="700.19031"
+         x2="1349.1042"
+         y2="653.16827"
+         id="line857-7" />
+    </g>
+  </g>
+</svg>
