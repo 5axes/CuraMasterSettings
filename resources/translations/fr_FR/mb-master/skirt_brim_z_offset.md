@@ -1,5 +1,5 @@
 # Skirt/Brim Z Offset
 
-Offset the nozzle height by this amount when printing skirt or brim lines (negative values move the nozzle down).
+Décalage de la hauteur de la buse de cette valeur lors de l'impression de lignes de jupe ou de bordures (les valeurs négatives déplacent la buse vers le bas).
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : skirt_brim_z_offset

@@ -1,10 +1,10 @@
 # Top Surface Skin Overlap
 
-Adjust the amount of overlap between the walls and (the endpoints of) the top surface skin-centerlines. A slight overlap allows the walls to connect firmly to the skin. Note that, given an equal skin and wall line-width, any value over half the width of the wall may already cause any skin to go past the wall, because at that point the position of the nozzle of the skin-extruder may already reach past the middle of the wall.
+Ajustez le degré de chevauchement entre les parois et (les points d'extrémité des) lignes médianes de la peau de la surface supérieure. Un léger chevauchement permet aux murs de se connecter fermement à la peau. Notez qu'à largeur égale des lignes de peau et de paroi, toute valeur supérieure à la moitié de la largeur de la paroi peut déjà faire passer la peau au-delà de la paroi, car à ce moment-là, la position de la buse de l'extrudeuse de peau peut déjà dépasser le milieu de la paroi.
 
-![Top Surface Skin Overlap mm](../images-mb/roofing_overlap_mm.svg)
+![Surface supérieure Chevauchement de la peau](../images-mb/roofing_overlap_mm.svg)
 
-To be enabled the [Top Surface Skin Layers](../top_bottom/roofing_layer_count.md) must be  > 0 and [Top/Bottom Pattern](../top_bottom/top_bottom_pattern.md) must be different from  'Concentric'.
+Pour être activée, la [Couches extérieures de la surface supérieure](../top_bottom/roofing_layer_count.md) doit être > 0 et [Motif haut/bas](../top_bottom/top_bottom_pattern.md) doit être différent de 'Concentrique'.
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : roofing_overlap_mm
 
