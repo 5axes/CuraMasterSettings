@@ -1,3 +1,5 @@
 Preferred Branch Angle
 ====
-The preferred angle of the branches, when they do not have to avoid the model. Use a lower angle to make them more vertical and more stable. Use a higher angle for branches to merge faster.
+This parameter determines the preferred angle for the branches, when they don't have to avoid the model. If you use a low angle, the branches will be more vertical and stable. If you use a high angle, the branches will merge faster.
+
+![Preferred Branch Angle](../images/tree_support_angle.svg)
