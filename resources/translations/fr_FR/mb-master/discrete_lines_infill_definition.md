@@ -1,29 +1,29 @@
 # Discrete Lines Infill Pattern
 
-This  experimental **_Discrete Lines infill pattern_**  appeared in the release 4.20.5. This infill pattern has been requested by a user who has specific requirements regarding the placement of infill lines. They need to be able to explicitly control where the infill lines are positioned. To achieve this, the infill lines are specified by either a literal JSON string or a file containing one or more JSON objects, each object specifying the characteristics of a region of infill.
+Cette expérience **_Discrete Lines infill pattern_**  est apparu dans la version 4.20.5. Ce motif de remplissage a été demandé par un utilisateur qui a des exigences spécifiques concernant l'emplacement des lignes de remplissage. Il doit pouvoir contrôler explicitement l'emplacement des lignes de remplissage. Pour ce faire, les lignes de remplissage sont spécifiées soit par une chaîne JSON littérale, soit par un fichier contenant un ou plusieurs objets JSON, chaque objet spécifiant les caractéristiques d'une région de remplissage.
 
-Here's some examples that show the current capabilities...
+Voici quelques exemples qui illustrent les capacités actuelles...
 
-1 - Firstly, here's the inside of a model that has been sliced using the Discrete Lines infill pattern with an empty Discrete Lines Definition...
+1 - Tout d'abord, voici l'intérieur d'un modèle qui a été découpé en utilisant le motif de remplissage des lignes discrètes avec une définition vide des lignes discrètes....
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_01.png)
 
-No real surprise that there's no infill as the definition is empty.
+Il n'est pas vraiment surprenant qu'il n'y ait pas de remplissage puisque la définition est vide..
 
-2 - For really simple infill that repeats across the model you can set Discrete Lines Definition to something like ***{ "xpitch": 4 }*** (remember, it's JSON syntax so you need to enclose the definition of xpitch with { and }). This is saying, generate infill lines every 4 mm in the x direction (and as long as required in the y direction). So now you get this...
+2 - Pour un remplissage très simple qui se répète sur l'ensemble du modèle, vous pouvez définir la définition des lignes discrètes comme suit ***{ "xpitch": 4 }*** (N'oubliez pas qu'il s'agit d'une syntaxe JSON et que vous devez donc entourer la définition de xpitch de { et }). Cela signifie qu'il faut générer des lignes de remplissage tous les 4 mm dans la direction x (et aussi longtemps que nécessaire dans la direction y). Vous obtenez donc ceci...
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_02.png)
 
 
-3 - You could also provide more than one definition so let's add some lines spaced across the y axis using ***{ "xpitch": 4, "ypitch": 10 }***...
+3 - Vous pouvez également fournir plus d'une définition. Ajoutons donc des lignes espacées sur l'axe des y en utilisant la fonction ***{ "xpitch": 4, "ypitch": 10 }***...
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_03.png)
 
-Obviously, you can't type much in that little settings text field so, instead, ***you can provide the settings as a JSON file and simply put the name of the file in the settings field prefixed with @*** . The file name can either be absolute or relative to the directory the project file was loaded from or the user's home directory.
+Il est évident que vous ne pouvez pas taper grand-chose dans le petit champ de texte des paramètres, ***vous pouvez fournir les paramètres sous la forme d'un fichier JSON et simplement mettre le nom du fichier dans le champ paramètres préfixé par @*** . Le nom du fichier peut être absolu ou relatif au répertoire à partir duquel le fichier de projet a été chargé ou au répertoire personnel de l'utilisateur.
 
-# Sample capabilities
+# Exemple de capacités
 
-All the examples now are specified as a JSON file. Here's a really simple example that introduces the "x" member name. This expects to be followed by an array of x coordinates and generates a single line for each coordinate. As you would expect, there's a "y" member name too.
+Tous les exemples sont maintenant spécifiés sous la forme d'un fichier JSON. Voici un exemple très simple qui introduit le nom de l'option "x". Il s'attend à être suivi d'un tableau de coordonnées x et génère une seule ligne pour chaque coordonnée. Comme on peut s'y attendre, il y a aussi un nom de l'option "y".
 
 `{
  "x": [-18, 0, 15]
@@ -31,9 +31,9 @@ All the examples now are specified as a JSON file. Here's a really simple exampl
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_04.png)
 
-*This sample code can be found on the following link : [J1.json](../../sample_files/J1.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J1.json](../../sample_files/J1.json)*
 
-By default, the infill is clipped to fit the outline of the model being filled but you can also specify limits in all three, (x, y & z) dimensions. So here we show repeated lines that are limited to a central region of our model...
+Par défaut, le remplissage s'adapte au contour du modèle à remplir, mais vous pouvez également spécifier des limites dans les trois dimensions (x, y et z). Ici, nous montrons des lignes répétées qui sont limitées à une région centrale de notre modèle...
 
 `{
  "xpitch": 3,
@@ -43,9 +43,9 @@ By default, the infill is clipped to fit the outline of the model being filled b
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_05.png)
 
-*This sample code can be found on the following link : [J2.json](../../sample_files/J2.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J2.json](../../sample_files/J2.json)*
 
-We can limit in the y direction also...
+Nous pouvons également limiter dans la direction y...
 
 `{
  "xpitch": 3,
@@ -56,9 +56,9 @@ We can limit in the y direction also...
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_06.png)
 
-*This sample code can be found on the following link : [J4.json](../../sample_files/J4.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J4.json](../../sample_files/J4.json)*
 
-The definition file can contain not just a single definition but an array of definitions and they are processed sequentially. This following example shows the x lines in the central region as before but also, now has y lines in the outer regions as well...
+Le fichier de définition peut contenir non seulement une définition unique, mais aussi un tableau de définitions, qui sont traitées de manière séquentielle. L'exemple suivant montre les lignes x dans la région centrale comme auparavant, mais aussi les lignes y dans les régions extérieures...
 
 `[
  {
@@ -73,11 +73,11 @@ The definition file can contain not just a single definition but an array of def
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_07.png)
 
-*This sample code can be found on the following link : [J5.json](../../sample_files/J5.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J5.json](../../sample_files/J5.json)*
 
-### Cliping area
+### Zone de découpe
 
-You will have noticed that the y lines are excluded from the x lines region and that's because after each area of infill has been defined, it clips that area from the model. This default behaviour can be altered by setting "clip" to False like this...
+Vous aurez remarqué que les lignes y sont exclues de la région des lignes x. C'est parce qu'une fois que chaque zone de remplissage a été définie, elle est coupée du modèle. Ce comportement par défaut peut être modifié en réglant "clip" sur False comme suit...
 
 `[
  {
@@ -93,17 +93,17 @@ You will have noticed that the y lines are excluded from the x lines region and 
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_08.png)
 
-*This sample code can be found on the following link : [J6.json](../../sample_files/J6.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J6.json](../../sample_files/J6.json)*
 
 ### enable
 
-There's a couple more members that take boolean values: "enable" and "zigzag".
+Il y a quelques autres membres qui prennent des valeurs booléennes: "enable" and "zigzag".
 
-Setting "enable" to false will cause the current definition to be ignored, this is useful as you can't comment JSON files so while experimenting it's good to have a means of turning individual definitions on and off.
+Paramètre "enable" à false permet d'ignorer la définition en cours, ce qui est utile car on ne peut pas commenter les fichiers JSON et il est donc bon d'avoir un moyen d'activer et de désactiver les définitions individuelles lors de l'expérimentation.
 
 ### zigzag
 
-Setting "zigzag" to true joins up the ends of the lines where they meet the model walls (just like zigzag pattern infill)...
+Le fait de définir "zigzag" sur true permet de joindre les extrémités des lignes à l'endroit où elles rencontrent les murs du modèle (tout comme le remplissage en zigzag)...
 
 `[
  {
@@ -112,12 +112,12 @@ Setting "zigzag" to true joins up the ends of the lines where they meet the mode
  }
 ]`
 
-Here's the plan view of that with the shell not visible...  
+Voici la vue de ce projet, la coque n'étant pas visible...  
 ![Discrete Lines Infill Pattern "zigzag"](../../../articles/images-mb/discrete_lines_infill_definition_09.png)
 
-*This sample code can be found on the following link : [J7.json](../../sample_files/J7.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J7.json](../../sample_files/J7.json)*
 
-Finally, there's the "angle" member that let's you specify a rotation of the lines...
+Enfin, le paramètre "angle" vous permet de spécifier une rotation des lignes...
 
 `[
  {
@@ -128,19 +128,19 @@ Finally, there's the "angle" member that let's you specify a rotation of the lin
 
 ![Discrete Lines Infill Pattern "angle"](../../../articles/images-mb/discrete_lines_infill_definition_10.png)
 
-*This sample code can be found on the following link : [J8.json](../../sample_files/J8.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J8.json](../../sample_files/J8.json)*
 
-# Currently implemented members
+# Paramètres actuellement disponibles
 
-In the descriptions below:
+Dans les descriptions ci-dessous:
 
-- NUM = number
+- NUM = nombre
 
-- INUM = either a NUM or \[NUM, NUM\] in the latter case, the value is interpolated between the two values with the first value being used for the lowest layer in the infill region and the second value is used for the topmost layer in the infill region.
+- INUM = soit un NUM ou \[NUM, NUM\] dans ce dernier cas, la valeur est interpolée entre les deux valeurs, la première étant utilisée pour la couche la plus basse de la région de remplissage et la seconde pour la couche la plus haute de la région de remplissage.
 
-- BOOLEAN = either **true** or **false** (not quoted!) or a non-zero number for true and zero for false.
+- BOOLEAN = soit **true** ou **false** (sans citation !) ou un nombre non nul pour vrai et zéro pour faux.
 
-Here's the full list of the currently implemented members.
+Voici la liste complète des paramètres actuellement disponibles.
 
 - "xpitch": INUM or "from-settings", "ypitch": INUM or "from-settings".  
 Generate lines at the specified pitch along either the x or y axes. The pitch can be specified as NUM or \[NUM, NUM\] or the string "from-settings". If "from-settings" is used, the pitch is the value of the Infill Line Distance setting.
@@ -242,7 +242,7 @@ Latest addition: the "xpitch" and "ypitch" values can either be a single number,
 
 And this is what you get (sans shell for clarity)...
 ![Discrete Lines Infill Pattern "xpitch" and "ypitch"](../../../articles/images-mb/discrete_lines_infill_definition_12.png)
-*This sample code can be found on the following link : [J10.json](../../sample_files/J10.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J10.json](../../sample_files/J10.json)*
 
 ## Variable picth density
 
@@ -258,7 +258,7 @@ Here's another example showing the infill density going from 10% at the bottom o
 ![Discrete Lines Infill Pattern 10](../../../articles/images-mb/discrete_lines_infill_definition_13.png) 
 ![Discrete Lines Infill Pattern 0.4](../../../articles/images-mb/discrete_lines_infill_definition_14.png)
 
-*This sample code can be found on the following link : [J11.json](../../sample_files/J11.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J11.json](../../sample_files/J11.json)*
 
 # Waveform generation
 
@@ -276,7 +276,7 @@ If straight line infill is too boring, you can also have wiggly lines...
 
 ![Discrete Lines Infill Pattern "waveform": "sine"](../../../articles/images-mb/discrete_lines_infill_definition_15.png)
 
-*This sample code can be found on the following link : [J12.json](../../sample_files/J12.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J12.json](../../sample_files/J12.json)*
 
 The waveform shape can be specified as an array of amplitudes (between -1 and 1) like this...
 
@@ -292,7 +292,7 @@ The waveform shape can be specified as an array of amplitudes (between -1 and 1)
 
 ![Discrete Lines Infill Pattern array of amplitudes](../../../articles/images-mb/discrete_lines_infill_definition_16.png)
 
-*This sample code can be found on the following link : [J13.json](../../sample_files/J13.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J13.json](../../sample_files/J13.json)*
 
 Finally, because the waveform amplitude and wavelength can be varied with layer height you can achieve wacky stuff like this example where the sine wave amplitude goes from 0 to 5.
 
@@ -309,7 +309,7 @@ Here's a bottom view of that without the zigzags or shell...
 
 ![Discrete Lines Infill Pattern gradient "amplitude"](../../../articles/images-mb/discrete_lines_infill_definition_17.png)
 
-*This sample code can be found on the following link : [J14.json](../../sample_files/J14.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J14.json](../../sample_files/J14.json)*
 
 So there's (almost) straight lines at the bottom and sine waves at the top.
 
@@ -331,7 +331,7 @@ But that produces sloped lines between the horizontal portions of the waveform, 
 
 ![Discrete Lines Infill Pattern waveform zigzag ](../../../articles/images-mb/discrete_lines_infill_definition_18.png)
 
-*This sample code can be found on the following link : [J15.json](../../sample_files/J15.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J15.json](../../sample_files/J15.json)*
 
 I you want to specify that a transition should take zero time. The current scheme is to mark amplitude value changes that should occur "instantaneously" with a string element in the array, so the above example would now look like:
 
@@ -349,7 +349,7 @@ The "" elements are indicating that the transitions from -1 to 1 and 1 to -1 sho
 
 ![Discrete Lines Infill Pattern zigzag straight transition](../../../articles/images-mb/discrete_lines_infill_definition_19.png)
 
-*This sample code can be found on the following link : [J16.json](../../sample_files/J16.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J16.json](../../sample_files/J16.json)*
 
 
 ### Sample waveform code
@@ -379,7 +379,7 @@ Don't know if i will ever use a motif like this one.. But you will find some sam
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/image040.png)
 
-*This sample code can be found on the following link : [J17.json](../../sample_files/J17.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J17.json](../../sample_files/J17.json)*
 
 ### 5axes
 
@@ -416,7 +416,7 @@ If you abuse also of the double quotation mark can also give you some strange ( 
 
 ![Discrete Lines Infill Pattern "scattered" "pitch": "from-settings" ](../../../articles/images-mb/discrete_lines_infill_definition_20.png)
 
-*This sample code can be found on the following link : [J19.json](../../sample_files/J19.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J19.json](../../sample_files/J19.json)*
 
 With specified user pitch.
 
@@ -429,7 +429,7 @@ With specified user pitch.
 
 ![Discrete Lines Infill Pattern Discrete Lines Infill Pattern "scattered" "pitch": 3 ](../../../articles/images-mb/discrete_lines_infill_definition_21.png)
 
-*This sample code can be found on the following link : [J20.json](../../sample_files/J20.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J20.json](../../sample_files/J20.json)*
 ## Sample Scattered code
 
 `[
@@ -452,7 +452,7 @@ With specified user pitch.
 
 ![Discrete Lines Infill Pattern Scattered Mode](../../../articles/images-mb/discrete_lines_infill_definition_22.png)
 
-*This sample code can be found on the following link : [J21.json](../../sample_files/J21.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J21.json](../../sample_files/J21.json)*
 
 # "rings" and "spokes" member
 
@@ -467,7 +467,7 @@ Next we have "rings" and "spokes" which let you create spiderweb like infill...
 
 ![Discrete Lines Infill Pattern "rings" and "spokes"](../../../articles/images-mb/discrete_lines_infill_definition_23.png)
 
-*This sample code can be found on the following link : [J22.json](../../sample_files/J22.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J22.json](../../sample_files/J22.json)*
 
 ## Offset the infill
 
@@ -490,7 +490,7 @@ The "r" member let's you specify individual radii for rings like this...
 
 ![Discrete Lines Infill Pattern r member](../../../articles/images-mb/discrete_lines_infill_definition_25.png)
 
-*This sample code can be found on the following link : [J23.json](../../sample_files/J23.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J23.json](../../sample_files/J23.json)*
 
 # rmin & rmax member
 
@@ -513,7 +513,7 @@ The "r" member let's you specify individual radii for rings like this...
 
 ![Discrete Lines Infill Pattern rmin & rmax](../../../articles/images-mb/discrete_lines_infill_definition_26.png)
 
-*This sample code can be found on the following link : [J24.json](../../sample_files/J24.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J24.json](../../sample_files/J24.json)*
 
 # Contours member
 
@@ -529,6 +529,6 @@ This image is using infill density of 20%, the above examples were using 10%.
 
 ![Discrete Lines Infill Pattern "contours" ](../../../articles/images-mb/discrete_lines_infill_definition_27.png)
 
-*This sample code can be found on the following link : [J25.json](../../sample_files/J25.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J25.json](../../sample_files/J25.json)*
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : discrete_lines_infill_definition
