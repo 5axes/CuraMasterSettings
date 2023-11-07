@@ -19,7 +19,9 @@ Il n'est pas vraiment surprenant qu'il n'y ait pas de remplissage puisque la dé
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_03.png)
 
-Il est évident que vous ne pouvez pas taper grand-chose dans le petit champ de texte des paramètres, ***vous pouvez fournir les paramètres sous la forme d'un fichier JSON et simplement mettre le nom du fichier dans le champ paramètres préfixé par @*** . Le nom du fichier peut être absolu ou relatif au répertoire à partir duquel le fichier de projet a été chargé ou au répertoire personnel de l'utilisateur.
+Il est évident que vous ne pouvez pas taper grand-chose dans le petit champ de texte des paramètres, ***vous pouvez fournir les paramètres sous la forme d'un fichier JSON et simplement mettre le nom du fichier dans le champ paramètres préfixé par @*** . 
+
+Le nom du fichier peut être absolu ou relatif au répertoire à partir duquel le fichier de projet a été chargé ou au répertoire personnel de l'utilisateur.
 
 # Exemple de capacités
 
