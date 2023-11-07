@@ -1,6 +1,7 @@
 # Mesh Dawdle Time
 
-The amount of time to print using Mesh Dawdle Speed when waiting for the temperature to change at the start and end of the mesh. This parameter allows, when using the [Mesh Temperature Delta](mesh_temperature_delta.md) parameter, to specify a delay for the extruder to reach the right temperature.
-As the option uses the M104 code that sets a new target hot end temperature and continue without waiting, this parameter allows to anticipate the temperature change by triggering the temperature change command earlier or later.  
+Le temps d'impression à l'aide de Mesh Dawdle Speed en attendant que la température change au début et à la fin de la maille. Ce paramètre permet, lors de l'utilisation de la fonction [Mesh Temperature Delta](mesh_temperature_delta.md) pour spécifier un délai avant que l'extrudeuse n'atteigne la bonne température.
+
+Comme l'option utilise le code M104 qui définit une nouvelle température cible du point chaud et continue sans attendre, ce paramètre permet d'anticiper le changement de température en déclenchant la commande de changement de température plus tôt ou plus tard.  
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : mesh_temperature_dawdle_time

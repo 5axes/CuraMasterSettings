@@ -1,5 +1,5 @@
 # Mesh Dawdle Speed
 
-This parameter allows, when using the [Mesh Temperature Delta](mesh_temperature_delta.md) parameter to change the speed. Mesh Dawdle Speed is the print speed used when waiting for the temperature to change at the start and end of the mesh. 
+Ce paramètre permet, lors de l'utilisation du paramètre [Mesh Temperature Delta](mesh_temperature_delta.md) pour modifier la vitesse. Mesh Dawdle Speed est la vitesse d'impression utilisée lorsque l'on attend que la température change au début et à la fin du maillage. 
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : mesh_temperature_dawdle_speed
