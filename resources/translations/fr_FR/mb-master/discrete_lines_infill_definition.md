@@ -31,7 +31,7 @@ Tous les exemples sont maintenant spécifiés sous la forme d'un fichier JSON. V
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_04.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J1.json](../../sample_files/J1.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J1.json](../../../sample_files/J1.json)*
 
 Par défaut, le remplissage s'adapte au contour du modèle à remplir, mais vous pouvez également spécifier des limites dans les trois dimensions (x, y et z). Ici, nous montrons des lignes répétées qui sont limitées à une région centrale de notre modèle...
 
@@ -43,7 +43,7 @@ Par défaut, le remplissage s'adapte au contour du modèle à remplir, mais vous
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_05.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J2.json](../../sample_files/J2.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J2.json](../../../sample_files/J2.json)*
 
 Nous pouvons également limiter dans la direction y...
 
@@ -56,7 +56,7 @@ Nous pouvons également limiter dans la direction y...
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_06.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J4.json](../../sample_files/J4.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J4.json](../../../sample_files/J4.json)*
 
 Le fichier de définition peut contenir non seulement une définition unique, mais aussi un tableau de définitions, qui sont traitées de manière séquentielle. L'exemple suivant montre les lignes x dans la région centrale comme auparavant, mais aussi les lignes y dans les régions extérieures...
 
@@ -73,7 +73,7 @@ Le fichier de définition peut contenir non seulement une définition unique, ma
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_07.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J5.json](../../sample_files/J5.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J5.json](../../../sample_files/J5.json)*
 
 ### Zone de découpe
 
@@ -93,7 +93,7 @@ Vous aurez remarqué que les lignes y sont exclues de la région des lignes x. C
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_08.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J6.json](../../sample_files/J6.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J6.json](../../../sample_files/J6.json)*
 
 ### enable
 
@@ -115,7 +115,7 @@ Le fait de définir "zigzag" sur true permet de joindre les extrémités des lig
 Voici la vue de ce projet, la coque n'étant pas visible...  
 ![Discrete Lines Infill Pattern "zigzag"](../../../articles/images-mb/discrete_lines_infill_definition_09.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J7.json](../../sample_files/J7.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J7.json](../../../sample_files/J7.json)*
 
 Enfin, le paramètre "angle" vous permet de spécifier une rotation des lignes...
 
@@ -128,7 +128,7 @@ Enfin, le paramètre "angle" vous permet de spécifier une rotation des lignes..
 
 ![Discrete Lines Infill Pattern "angle"](../../../articles/images-mb/discrete_lines_infill_definition_10.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J8.json](../../sample_files/J8.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J8.json](../../../sample_files/J8.json)*
 
 # Paramètres actuellement disponibles
 
@@ -142,67 +142,67 @@ Dans les descriptions ci-dessous:
 
 Voici la liste complète des paramètres actuellement disponibles.
 
-- "xpitch": INUM or "from-settings", "ypitch": INUM or "from-settings".  
-Generate lines at the specified pitch along either the x or y axes. The pitch can be specified as NUM or \[NUM, NUM\] or the string "from-settings". If "from-settings" is used, the pitch is the value of the Infill Line Distance setting.
+- "xpitch": INUM ou "from-settings", "ypitch": INUM ou "from-settings".  
+Génère des lignes à la hauteur spécifiée le long des axes x ou y. Le pas peut être spécifié sous la forme NUM ou \[NUM, NUM\] ou la chaîne "from-settings". Si "from-settings" est utilisé, le pas correspond à la valeur du paramètre [Infill Line Distance](../infill/infill_line_distance.md).
 
 - "x": ARRAY_OF_NUM, "y": ARRAY_OF_NUM  
-Generate lines at the specified locations along either the x or y axes.
+Génère des lignes aux emplacements spécifiés le long des axes x ou y.
 
 - "xmin": NUM, "xmax": NUM, "ymin": NUM, "ymax": NUM, "zmin": NUM, "zmax": NUM  
-Limit the infill area to the specified limits.
+Limiter la zone de remplissage aux limites spécifiées.
 
-- "rings": INUM or "from-settings"  
-Generate lines at the specified pitch as circular rings around the infill origin. The pitch can be specified as NUM or \[NUM, NUM\] or the string "from-settings". If "from-settings" is used, the pitch is the value of the Infill Line Distance setting. If "spokes" are being generated, the number of segments in each ring will be the same as the number of spokes. Otherwise the rings will be smooth.
+- "rings": INUM ou "from-settings"  
+Génère des lignes au pas spécifié sous forme d'anneaux circulaires autour de l'origine du remplissage. Le pas peut être spécifié sous la forme NUM ou \[NUM, NUM\] ou la chaîne "from-settings". Si "from-settings" est utilisé, le pas est la valeur du paramètre [Infill Line Distance](../infill/infill_line_distance.md). Si des "rayons" sont générés, le nombre de segments dans chaque anneau sera le même que le nombre de rayons. Sinon, les anneaux seront lisses.
 
 - "r": ARRAY_OF_NUM  
-Generate lines at the specified radii around the infill origin. If "spokes" are being generated, the number of segments in each ring will be the same as the number of spokes. Otherwise the rings will be smooth.
+Génère des lignes aux rayons spécifiés autour de l'origine du remplissage. Si des "rayons" sont générés, le nombre de segments dans chaque anneau sera le même que le nombre de rayons. Sinon, les anneaux seront lisses.
 
 - "rmin": NUM, "rmax": NUM  
-Limit the infill area to the specified radial limits around the infill origin. If "spokes" are being generated, the number of segments in the circumference of the infill area will be the same as the number of spokes. Otherwise the circumference of the infill area will be smooth.
+Limite la zone de remplissage aux limites radiales spécifiées autour de l'origine du remplissage. Si des "rayons" sont générés, le nombre de segments dans la circonférence de la zone de remplissage sera le même que le nombre de rayons. Sinon, la circonférence de la zone de remplissage sera lisse.
 
 - "spokes": NUM  
 Generate NUM equally spaced lines radiating from the infill origin.
 
-- "contours": INUM or "from-settings"  
-Generate lines at the specified pitch inset from the infill region's outline. The pitch can be specified as NUM or \[NUM, NUM\] or the string "from-settings". If "from-settings" is used, the pitch is the value of the Infill Line Distance setting.
+- "contours": INUM ou "from-settings"  
+Génère des lignes au pas spécifié, insérées dans le contour de la région de remplissage. Le pas peut être spécifié sous la forme NUM ou \[NUM, NUM\] ou la chaîne "from-settings". Si "from-settings" est utilisé, le pas est la valeur du paramètre [Infill Line Distance](../infill/infill_line_distance.md).
 
-- "angle": NUM or "from-settings"  
-Rotate the generated lines this number of degrees anti-clockwise. If "from-settings" is used, the angle is as specified in the Infill Line Directions setting which, if empty, defaults to 45 and 135 degrees.
+- "angle": NUM ou "from-settings"  
+Faites pivoter les lignes générées de ce nombre de degrés dans le sens inverse des aiguilles d'une montre. Si "from-settings" est utilisé, l'angle est celui spécifié dans le paramètre [Infill Line Directions](../infill/infill_angles.md) qui, s'il est vide, est par défaut de 45 et 135 degrés.
 
-- "waveform": "sine" or "triangle" or "square" or ARRAY_OF_NUM  
-Generate the specified waveform instead of a straight line. The amplitude and wavelength of the waveform are specified separately. Waveforms can also be specified as an array of numbers that provide the amplitude of the wave at regularly spaced intervals within a single wavelength. Each element in the array is an amplitude scaling value and should be in the range -1 to 1.
+- "waveform": "sine" ou "triangle" ou "square" ou ARRAY_OF_NUM  
+Génère la forme d'onde spécifiée au lieu d'une ligne droite. L'amplitude et la longueur d'onde de la forme d'onde sont spécifiées séparément. Les formes d'onde peuvent également être spécifiées sous la forme d'un tableau de nombres qui fournissent l'amplitude de l'onde à des intervalles régulièrement espacés dans une longueur d'onde unique. Chaque élément du tableau est une valeur d'échelle d'amplitude et doit être compris entre -1 et 1.
 
 - "wavelength": INUM  
-The wavelength of the waveform.
+La longueur d'onde de la forme d'onde.
 
 - "amplitude": INUM  
-The zero-peak amplitude of the waveform.
+L'amplitude zéro de la forme d'onde.
 
 - "clip": BOOLEAN  
-Specify whether the current infill region is clipped from the model area so subsequent definitions don't apply to the same area. Defaults to true.
+Indique si la région de remplissage actuelle est coupée de la zone du modèle afin que les définitions suivantes ne s'appliquent pas à la même zone. La valeur par défaut est true.
 
 - "enable": BOOLEAN  
-Specify whether the current definition is used or not. Defaults to true.
+Indique si la définition actuelle est utilisée ou non. La valeur par défaut est true.
 
 - "zigzag": BOOLEAN  
-Specify whether the ends of the infill lines that meet the model outline are connected (like zigzag pattern infill) or not. Defaults to the value of the Connect Infill Lines setting.
+Indique si les extrémités des lignes de remplissage qui rejoignent le contour du modèle sont connectées (comme le remplissage en zigzag) ou non. La valeur par défaut est celle du paramètre [Relier les lignes de remplissage](../infill/zig_zaggify_infill.md).
 
 - "scattered": BOOLEAN  
-Specify whether to generate a scattered infill pattern or not. The scattered infill pattern generates lines with randomised spacing and direction on each layer. Assumes that the Infill Line Pattern is either the default '\[ \]' or set to two values 90 degrees apart.
+Indiquer s'il faut ou non générer un motif de remplissage dispersé. Le motif de remplissage dispersé génère des lignes dont l'espacement et la direction sont aléatoires sur chaque couche. Suppose que le motif des lignes de remplissage est soit le motif par défaut, soit le motif par défaut : '\[ \]' ou deux valeurs à 90 degrés l'une de l'autre.
 
 ## Notes
 
-All lengths are in mm.
+Toutes les longueurs sont en mm.
 
-The x and y coordinates are relative to the infill origin which is the middle of the mesh being filled with offset by the Infill X/Y Offset settings.
+Les coordonnées x et y sont relatives à l'origine du remplissage qui est le milieu de la maille remplie avec un décalage par les paramètres Infill X/Y Offset..
 
-The z coordinates are relative to the buildplate.
+Les coordonnées z sont relatives au plateau d'impression.
 
-# Usability
+# Facilité d'utilisation
 
-One problem with JSON is that it is very unforgiving in terms of syntax. If you miss out a comma or bracket, or have too many, it will fail to read the definition and you won't get any infill generated.
+L'un des problèmes de JSON est qu'il ne pardonne pas en termes de syntaxe. Si vous oubliez une virgule ou une parenthèse, ou si vous en avez trop, la définition ne sera pas lue et vous n'obtiendrez pas de remplissage.
 
-Worse still, the error reporting is currently very primitive. If the definition file cannot be read or it contains syntax errors you will get a message in the cura.log file. So, for example, the following bad JSON file (it's missing a comma) will generate the error below...
+Pire encore, les rapports d'erreur sont actuellement très primitifs. Si le fichier de définition ne peut pas être lu ou s'il contient des erreurs de syntaxe, vous obtiendrez un message dans le fichier cura.log. Ainsi, par exemple, le mauvais fichier JSON suivant (il manque une virgule) générera l'erreur ci-dessous...
 
 `[
  {
@@ -213,17 +213,17 @@ Worse still, the error reporting is currently very primitive. If the definition 
 
  ***2022-09-16 14:03:02,901 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] [ERROR] DiscreteLinesInfill: Error parsing JSON (offset 28): Missing a comma or '}' after an object member.***
 
-Unfortunately, there's currently no mechanism in Cura to get an error message generated in the engine that does the slicing back to be displayed in the UI.
+Malheureusement, il n'existe actuellement aucun mécanisme dans Cura permettant d'afficher dans l'interface utilisateur un message d'erreur généré dans le moteur qui effectue le découpage.
 
-## infill X and Y Offset
+## Remplissage Décalage X et Y
 
-The infill X and Y offsets are still active with this mode so here is an example where the infill lines should cross at the middle of the model but the infill has been shifted...
+Les [décalages X](../infill/infill_offset_x.md) et [Y](../infill/infill_offset_y.md) du remplissage sont toujours actifs avec ce mode. Voici donc un exemple où les lignes de remplissage devraient se croiser au milieu du modèle mais où le remplissage a été décalé...
 
 ![Discrete Lines Infill Pattern infill X and Y Offset](../../../articles/images-mb/discrete_lines_infill_definition_11.png)
 
 # "xpitch" and "ypitch" member
 
-Latest addition: the "xpitch" and "ypitch" values can either be a single number, in which case, the same pitch value is used for all the layers in the current infill region. Alternatively, you can specify a two element array and the first element is the pitch value for the lowest layer in the region and the second element is the pitch value for the topmost layer in the region and for the layers between, the pitch value is interpolated between those two limits. Obviously, the gradient can't be too shallow otherwise the infill won't be supported by the layers below. Anyway. here's an example that defines three infill regions, a region that is below 4mm, a region from 4mm up to 15mm and the last region that is above 25mm. The lowest region has a pitch of 10, the highest region has a pitch of 8 and the middle region has a pitch that goes from 10 to 8 as z increases.
+Dernier ajout : les valeurs "xpitch" et "ypitch" peuvent être un seul nombre, auquel cas la même valeur de hauteur est utilisée pour toutes les couches de la région de remplissage actuelle. Vous pouvez également spécifier un tableau de deux éléments, le premier étant la valeur de hauteur de la couche la plus basse de la région et le second la valeur de hauteur de la couche la plus haute de la région ; pour les couches intermédiaires, la valeur de hauteur est interpolée entre ces deux limites. Il est évident que la pente ne peut pas être trop faible, sinon le remplissage ne sera pas supporté par les couches inférieures. Voici un exemple qui définit trois régions de remplissage, une région inférieure à 4 mm, une région de 4 mm à 15 mm et une dernière région supérieure à 25 mm. La région la plus basse a un pas de 10, la région la plus haute a un pas de 8 et la région du milieu a un pas qui passe de 10 à 8 au fur et à mesure que z augmente.
 
 `[
  {
@@ -240,13 +240,15 @@ Latest addition: the "xpitch" and "ypitch" values can either be a single number,
  }
 ]`
 
-And this is what you get (sans shell for clarity)...
+Et voici ce que vous obtenez (sans la coque pour plus de clarté)...
+
 ![Discrete Lines Infill Pattern "xpitch" and "ypitch"](../../../articles/images-mb/discrete_lines_infill_definition_12.png)
-*Cet exemple de code est disponible sur le lien suivant : [J10.json](../../sample_files/J10.json)*
 
-## Variable picth density
+*Cet exemple de code est disponible sur le lien suivant : [J10.json](../../../sample_files/J10.json)*
 
-Here's another example showing the infill density going from 10% at the bottom of the model to close to 100% at the top...
+## Densité de remplissage variable
+
+Voici un autre exemple montrant que la densité de remplissage passe de 10 % en bas du modèle à près de 100 % en haut...
 
 `[
  {
@@ -258,11 +260,11 @@ Here's another example showing the infill density going from 10% at the bottom o
 ![Discrete Lines Infill Pattern 10](../../../articles/images-mb/discrete_lines_infill_definition_13.png) 
 ![Discrete Lines Infill Pattern 0.4](../../../articles/images-mb/discrete_lines_infill_definition_14.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J11.json](../../sample_files/J11.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J11.json](../../../sample_files/J11.json)*
 
-# Waveform generation
+# Génération de formes d'onde
 
-If straight line infill is too boring, you can also have wiggly lines...
+Si le remplissage en ligne droite est trop ennuyeux, vous pouvez également utiliser des lignes ondulées...
 
 `[
 {
@@ -274,11 +276,11 @@ If straight line infill is too boring, you can also have wiggly lines...
 }
 ]`
 
-![Discrete Lines Infill Pattern "waveform": "sine"](../../../articles/images-mb/discrete_lines_infill_definition_15.png)
+![Lignes discrètes Motif de remplissage "waveform": "sine"](../../../articles/images-mb/discrete_lines_infill_definition_15.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J12.json](../../sample_files/J12.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J12.json](../../../sample_files/J12.json)*
 
-The waveform shape can be specified as an array of amplitudes (between -1 and 1) like this...
+La forme d'onde peut être spécifiée sous la forme d'un tableau d'amplitudes (entre -1 et 1) comme suit...
 
 `[
  {
@@ -290,11 +292,11 @@ The waveform shape can be specified as an array of amplitudes (between -1 and 1)
  }
 ]`
 
-![Discrete Lines Infill Pattern array of amplitudes](../../../articles/images-mb/discrete_lines_infill_definition_16.png)
+![Lignes discrètes Remplissage tableau d'amplitudes](../../../articles/images-mb/discrete_lines_infill_definition_16.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J13.json](../../sample_files/J13.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J13.json](../../../sample_files/J13.json)*
 
-Finally, because the waveform amplitude and wavelength can be varied with layer height you can achieve wacky stuff like this example where the sine wave amplitude goes from 0 to 5.
+Enfin, comme l'amplitude et la longueur d'onde de la forme d'onde peuvent varier en fonction de la hauteur de la couche, il est possible d'obtenir des résultats farfelus, comme dans cet exemple où l'amplitude de l'onde sinusoïdale passe de 0 à 5.
 
 `[
  {
@@ -305,17 +307,17 @@ Finally, because the waveform amplitude and wavelength can be varied with layer 
  }
 ]`
 
-Here's a bottom view of that without the zigzags or shell...
+Voici une vue de dessous sans les zigzags ni la coquille...
 
-![Discrete Lines Infill Pattern gradient "amplitude"](../../../articles/images-mb/discrete_lines_infill_definition_17.png)
+![Lignes discrètes Remplissage Dégradé du motif "amplitude"](../../../articles/images-mb/discrete_lines_infill_definition_17.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J14.json](../../sample_files/J14.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J14.json](../../../sample_files/J14.json)*
 
-So there's (almost) straight lines at the bottom and sine waves at the top.
+Il y a donc des lignes (presque) droites en bas et des ondes sinusoïdales en haut.
 
-## Waveform square waves
+## Forme d'onde ondes carrées
 
-The above described mechanism for specifying the shape of a waveform has a major drawback in that it doesn't allow the creation of waveforms that have zero rise and fall times, e.g. square waves. A square wave could be described using 4 amplitudes like this example
+Le mécanisme décrit ci-dessus pour spécifier la forme d'une onde présente un inconvénient majeur : il ne permet pas de créer des ondes dont les temps de montée et de descente sont nuls, comme les ondes carrées. Une onde carrée peut être décrite à l'aide de 4 amplitudes, comme dans l'exemple suivant
 
 `[
  {
@@ -327,13 +329,13 @@ The above described mechanism for specifying the shape of a waveform has a major
  }
 ]`
 
-But that produces sloped lines between the horizontal portions of the waveform, as you can see here...
+Mais cela produit des lignes inclinées entre les parties horizontales de la forme d'onde, comme vous pouvez le voir ici...
 
-![Discrete Lines Infill Pattern waveform zigzag ](../../../articles/images-mb/discrete_lines_infill_definition_18.png)
+![Lignes discrètes Remplissage Forme d'onde zigzag](../../../articles/images-mb/discrete_lines_infill_definition_18.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J15.json](../../sample_files/J15.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J15.json](../../../sample_files/J15.json)*
 
-I you want to specify that a transition should take zero time. The current scheme is to mark amplitude value changes that should occur "instantaneously" with a string element in the array, so the above example would now look like:
+Si vous souhaitez spécifier qu'une transition ne doit pas prendre de temps. Le schéma actuel consiste à marquer les changements de valeur d'amplitude qui doivent se produire "instantanément" à l'aide d'une chaîne de caractères dans le tableau, de sorte que l'exemple ci-dessus ressemblerait à ce qui suit:
 
 `[
  {
@@ -345,16 +347,16 @@ I you want to specify that a transition should take zero time. The current schem
  }
 ]`
 
-The "" elements are indicating that the transitions from -1 to 1 and 1 to -1 should take zero time. And now we get...
+Les valeurs "" indiquent que les transitions de -1 à 1 et de 1 à -1 ne doivent pas prendre de temps. Et maintenant, nous obtenons...
 
-![Discrete Lines Infill Pattern zigzag straight transition](../../../articles/images-mb/discrete_lines_infill_definition_19.png)
+![Lignes discrètes Modèle de remplissage zigzag transition directe](../../../articles/images-mb/discrete_lines_infill_definition_19.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J16.json](../../sample_files/J16.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J16.json](../../../sample_files/J16.json)*
 
 
-### Sample waveform code
+### Exemple de code de forme d'onde
 
-Don't know if i will ever use a motif like this one.. But you will find some sample waveform code ,
+Je ne sais pas si j'utiliserai un jour un motif comme celui-ci... Mais vous trouverez un exemple de code de forme d'onde,
 
 `[
  {
@@ -377,13 +379,13 @@ Don't know if i will ever use a motif like this one.. But you will find some sam
  }
 ]`
 
-![Discrete Lines Infill Pattern](../../../articles/images-mb/image040.png)
+![Lignes discrètes Motif de remplissage](../../../articles/images-mb/image040.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J17.json](../../sample_files/J17.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J17.json](../../../sample_files/J17.json)*
 
 ### 5axes
 
-I don't think so... but by the way they are something strange concerning the use of the double quotation mark in the waveform definition. If you use it alone at the end of the sequence it gives you a different behavior.
+Je ne le pense pas... mais au fait, il y a quelque chose d'étrange concernant l'utilisation du guillemet double dans la définition de la forme d'onde. Si vous l'utilisez seul à la fin de la séquence, le comportement est différent.
 
 `"waveform": [1.0, 0.25, 0.0, 0.0, -0.25, -1.0,-1.0,"",1.0],`
 
@@ -397,15 +399,15 @@ Or
 
 ![image](../../../articles/images-mb/image042.png)
 
-If you abuse also of the double quotation mark can also give you some strange ( but interesting behaviour ) Ie :
+Si vous abusez aussi des guillemets doubles, vous risquez d'avoir un comportement étrange (mais intéressant) :
 
 `"waveform": ["","","","",1.0,1.0, 0.25, 0.0, 0.0, -0.25, -1.0,-1.0],`
 
 ![image "waveform"](../../../articles/images-mb/image044.png)
 
-# "scattered" member
+# Paramètre "scattered"
 
-"scattered" has been added, it's simple to use...
+"scattered" a été ajouté, il est simple à utiliser...
 
 `[
  {
@@ -414,11 +416,11 @@ If you abuse also of the double quotation mark can also give you some strange ( 
  }
 ]`
 
-![Discrete Lines Infill Pattern "scattered" "pitch": "from-settings" ](../../../articles/images-mb/discrete_lines_infill_definition_20.png)
+![Lignes discrètes Motif de remplissage dispersé](../../../articles/images-mb/discrete_lines_infill_definition_20.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J19.json](../../sample_files/J19.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J19.json](../../../sample_files/J19.json)*
 
-With specified user pitch.
+Avec le pas de l'utilisateur spécifié.
 
 `[
  {
@@ -427,10 +429,11 @@ With specified user pitch.
  }
 ]`
 
-![Discrete Lines Infill Pattern Discrete Lines Infill Pattern "scattered" "pitch": 3 ](../../../articles/images-mb/discrete_lines_infill_definition_21.png)
+![Lignes discrètes Motif de remplissage Lignes discrètes Motif de remplissage "épars" pas de 3 mm ](../../../articles/images-mb/discrete_lines_infill_definition_21.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J20.json](../../sample_files/J20.json)*
-## Sample Scattered code
+*Cet exemple de code est disponible sur le lien suivant : [J20.json](../../../sample_files/J20.json)*
+
+## Exemple de code épars
 
 `[
  {
@@ -450,13 +453,13 @@ With specified user pitch.
  }
 ]`
 
-![Discrete Lines Infill Pattern Scattered Mode](../../../articles/images-mb/discrete_lines_infill_definition_22.png)
+![Lignes discrètes Motif de remplissage Mode dispersé](../../../articles/images-mb/discrete_lines_infill_definition_22.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J21.json](../../sample_files/J21.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J21.json](../../../sample_files/J21.json)*
 
-# "rings" and "spokes" member
+# Paramètres "rings" et "spokes"
 
-Next we have "rings" and "spokes" which let you create spiderweb like infill...
+Nous avons ensuite les "anneaux (rings)" et les "rayons (spokes)" qui vous permettent de créer des remplissages en forme de toile d'araignée...
 
 `[
  {
@@ -465,21 +468,21 @@ Next we have "rings" and "spokes" which let you create spiderweb like infill...
  }
 ]`
 
-![Discrete Lines Infill Pattern "rings" and "spokes"](../../../articles/images-mb/discrete_lines_infill_definition_23.png)
+![Lignes discrètes Motif de remplissage "anneaux" et "rayons"](../../../articles/images-mb/discrete_lines_infill_definition_23.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J22.json](../../sample_files/J22.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J22.json](../../../sample_files/J22.json)*
 
-## Offset the infill
+## Décaler le remplissage
 
-Even more spider web like if you offset the infill...
+L'aspect de la toile d'araignée est encore plus marqué si l'on décale le remplissage...
 
 ![Discrete Lines Infill Pattern](../../../articles/images-mb/discrete_lines_infill_definition_24.png)
 
-Notice how the spokes reduce in density at the origin.
+Remarquez que la densité des rayons diminue à l'origine.
 
-# r member
+# Paramètre r 
 
-The "r" member let's you specify individual radii for rings like this...
+Le paramètre "r" vous permet de spécifier des rayons individuels pour des anneaux comme celui-ci...
 
 `[
  {
@@ -488,13 +491,13 @@ The "r" member let's you specify individual radii for rings like this...
  }
 ]`
 
-![Discrete Lines Infill Pattern r member](../../../articles/images-mb/discrete_lines_infill_definition_25.png)
+![Lignes discrètes Motif de remplissage option r ](../../../articles/images-mb/discrete_lines_infill_definition_25.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J23.json](../../sample_files/J23.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J23.json](../../../sample_files/J23.json)*
 
-# rmin & rmax member
+# Paramètre rmin & rmax
 
-"rmin" and "rmax" let you specify the min and max radii of the region to be filled. In this example, the scattered infill is limited to between 15 and 20 mm from the infill origin and everywhere else gets the triangle waveform...
+"rmin" et "rmax" vous permettent de spécifier les rayons min et max de la région à remplir. Dans cet exemple, le remplissage dispersé est limité à une distance comprise entre 15 et 20 mm de l'origine du remplissage et tout le reste reçoit la forme d'onde triangulaire...
 
 `[
  {
@@ -511,13 +514,13 @@ The "r" member let's you specify individual radii for rings like this...
  }
 ]`
 
-![Discrete Lines Infill Pattern rmin & rmax](../../../articles/images-mb/discrete_lines_infill_definition_26.png)
+![Lignes discrètes Motif de remplissage rmin & rmax](../../../articles/images-mb/discrete_lines_infill_definition_26.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J24.json](../../sample_files/J24.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J24.json](../../../sample_files/J24.json)*
 
-# Contours member
+# Paramètre de Contours
 
-And then we have "contours"...
+Et puis il y a les "contours"...
 
 `[
  {
@@ -525,10 +528,10 @@ And then we have "contours"...
  }
 ]`
 
-This image is using infill density of 20%, the above examples were using 10%.
+Cette image utilise une densité de remplissage de 20 %, alors que les exemples précédents utilisaient une densité de 10 %.
 
-![Discrete Lines Infill Pattern "contours" ](../../../articles/images-mb/discrete_lines_infill_definition_27.png)
+![Lignes discrètes Remplissage Motif "contours" ](../../../articles/images-mb/discrete_lines_infill_definition_27.png)
 
-*Cet exemple de code est disponible sur le lien suivant : [J25.json](../../sample_files/J25.json)*
+*Cet exemple de code est disponible sur le lien suivant : [J25.json](../../../sample_files/J25.json)*
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : discrete_lines_infill_definition
