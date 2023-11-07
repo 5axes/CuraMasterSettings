@@ -4,8 +4,8 @@ Print the skin lines monotonically. This may improve the visual quality of the s
 
 This parameter was introduced before the official version of Cura integrated its own [Monotonic Top/Bottom Order](../top_bottom/skin_monotonic.md). The result obtained being different, the Cura-MAster fill option was kept. 
 
-![Monotonic Order from Official Cura release](../images-mb/monotonic_skin_lines_regular_cura.png)
-![Monotonic Order from Cura Master](../images-mb/monotonic_skin_lines_cura_master.png)
+![Monotonic Order from Official Cura release](../../articles/images-mb/monotonic_skin_lines_regular_cura.png)
+![Monotonic Order from Cura Master](../../articles/images-mb/monotonic_skin_lines_cura_master.png)
 
 Depending on the result obtained, you can decide to activate one or the other of the Monotonic Order.
 
