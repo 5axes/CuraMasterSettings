@@ -255,7 +255,8 @@ Here's another example showing the infill density going from 10% at the bottom o
  }
 ]`
 
-![Discrete Lines Infill Pattern "pitch": 10](../images-mb/discrete_lines_infill_definition_13.png) ![Discrete Lines Infill Pattern "pitch": 0.4](../images-mb/discrete_lines_infill_definition_14.png)
+![Discrete Lines Infill Pattern 10](../images-mb/discrete_lines_infill_definition_13.png) 
+![Discrete Lines Infill Pattern 0.4](../images-mb/discrete_lines_infill_definition_14.png)
 
 *This sample code can be found on the following link : [J11.json](../../sample_files/J11.json)*
 
