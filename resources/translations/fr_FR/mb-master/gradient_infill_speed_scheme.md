@@ -10,7 +10,7 @@ The speed modification scheme to use when printing [gradient infill](gradient_in
 - Slow
 - On Flow Change
 
-![Gradient Infill Speed Scheme](../../articles/images-mb/Gradient_Infill_Speed_Scheme.jpg)
+![Gradient Infill Speed Scheme](../../../articles/images-mb/Gradient_Infill_Speed_Scheme.jpg)
 
 The fast and slow schemes both modify the print speed so that throughout all of the infill, the extruder will turn at the same speed. So for both schemes, when the flow rate doubles, the speed has to halve, and so on.
 

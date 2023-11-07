@@ -7,13 +7,13 @@ The resolution of the infill pattern of the print. High resolution produces the 
 
 - High
 
-![High Infill Pattern Resolution](../../articles/images-mb/infill_pattern_resolution-high.png)
+![High Infill Pattern Resolution](../../../articles/images-mb/infill_pattern_resolution-high.png)
 
 - Medium
 
-![Medium Infill Pattern Resolution](../../articles/images-mb/infill_pattern_resolution-medium.png)
+![Medium Infill Pattern Resolution](../../../articles/images-mb/infill_pattern_resolution-medium.png)
 - Low
 
-![Low Infill Pattern Resolution](../../articles/images-mb/infill_pattern_resolution-low.png)
+![Low Infill Pattern Resolution](../../../articles/images-mb/infill_pattern_resolution-low.png)
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : infill_pattern_resolution

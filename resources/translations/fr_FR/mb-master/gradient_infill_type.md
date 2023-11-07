@@ -4,7 +4,7 @@ The type of gradient infill to use. All types modify the infill line flow in pro
 This type in gradient based infil is based on the idea from [CNCKitchen](https://www.cnckitchen.com/blog/gradient-infill-for-3d-prints) and [Github repository](https://github.com/CNCKitchen/GradientInfill).
 
 
-![CncKitchen Gradient Infill](../../articles/images-mb/CncKitchenGradientInfill.png)
+![CncKitchen Gradient Infill](../../../articles/images-mb/CncKitchenGradientInfill.png)
 
 ## Option
 
@@ -30,7 +30,7 @@ The speed modification scheme to use when printing gradient infill. Fast alters 
 - Slow
 - On Flow Change
 
-![Gradient Infill Speed Scheme](../../articles/images-mb/Gradient_Infill_Speed_Scheme.jpg)
+![Gradient Infill Speed Scheme](../../../articles/images-mb/Gradient_Infill_Speed_Scheme.jpg)
 
 The fast and slow schemes both modify the print speed so that throughout all of the infill, the extruder will turn at the same speed. So for both schemes, when the flow rate doubles, the speed has to halve, and so on.
 
