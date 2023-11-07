@@ -1,12 +1,12 @@
 # Minimise Gyroid Holes
 
-When enabled, the gyroid line pitch is altered to ensure that the lines 'cross' twice per gyroid cycle. This will partially fill the holes that often appear where the line orientation changes. Note that enabling this will make some infill densities impossible to print so a higher density that is printable will be used instead. 
+Lorsqu'il est activé, le pas de la ligne gyroïde est modifié de manière à ce que les lignes se croisent deux fois par cycle gyroïde. Cela permet de remplir partiellement les trous qui apparaissent souvent là où l'orientation des lignes change. Notez que l'activation de cette fonction rendra certaines densités de remplissage impossibles à imprimer, de sorte qu'une densité plus élevée pouvant être imprimée sera utilisée à la place. 
 
-![Minimise Gyroid Holes Off](../../../articles/images-mb/infill_constrain_gyroid_pitch_off.png)
+![Minimiser les trous dans les gyroïdes OFF](../../../articles/images-mb/infill_constrain_gyroid_pitch_off.png)
 
-![Minimise Gyroid Holes On](../../../articles/images-mb/infill_constrain_gyroid_pitch_on.png)
+![Minimiser les trous dans les gyroïdes ON](../../../articles/images-mb/infill_constrain_gyroid_pitch_on.png)
 
-This feature is disabled when [adaptive layer heights](../experimental/adaptive_layer_height_enabled.md) are enabled.
+Cette fonction est désactivée lorsque [hauteurs des couches adaptatives](../experimental/adaptive_layer_height_enabled.md) sont activés.
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : infill_constrain_gyroid_pitch
 

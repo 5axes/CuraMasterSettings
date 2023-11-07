@@ -1,29 +1,29 @@
 # Gradient Infill Speed Scheme
 
 
-The speed modification scheme to use when printing [gradient infill](gradient_infill_type.md). Fast alters the print speed to keep the extrusion rate constant, the print speed can both increase and decrease. Slow is similar except the print speed can only decrease. On flow change reduces the print speed where the infill flow is changing.
+Le schéma de modification de la vitesse à utiliser lors de l'impression  d'un [remplissage graduel](gradient_infill_type.md). Rapide modifie la vitesse d'impression pour maintenir le taux d'extrusion constant, la vitesse d'impression peut à la fois augmenter et diminuer. Lent est similaire, mais la vitesse d'impression ne peut que diminuer. En cas de changement de flux, la vitesse d'impression est réduite lorsque le flux de remplissage change.
 
 
-## Gradient Infill Speed Scheme option 
+## Option de schéma de vitesse pour le remplissage en graduel 
 
-- Fast
-- Slow
-- On Flow Change
+- Rapide
+- Lent
+- Sur la modification des flux
 
 ![Gradient Infill Speed Scheme](../../../articles/images-mb/Gradient_Infill_Speed_Scheme.jpg)
 
-The fast and slow schemes both modify the print speed so that throughout all of the infill, the extruder will turn at the same speed. So for both schemes, when the flow rate doubles, the speed has to halve, and so on.
+Les schémas rapide et lent modifient tous deux la vitesse d'impression de manière à ce que l'extrudeuse tourne à la même vitesse pendant toute la durée du remplissage. Ainsi, pour les deux schémas, lorsque le débit double, la vitesse doit être divisée par deux, et ainsi de suite.
 
-The fast scheme uses the normal print speed for normal flow so if that normal infill speed is 100 mm/S you will indeed get 200 mm/S where the flow is 50% and 50 mm/S where the flow is 200%. This is assuming the infill speed factor is 100%. If you modify that the speed changes will be less or more depending on whether you reduce the speed factor or increase it. Note that changing the speed factor from 100% will make the extruder rate change.
+Le système rapide utilise la vitesse d'impression normale pour un débit normal. Ainsi, si la vitesse de remplissage normale est de 100 mm/s, vous obtiendrez 200 mm/S lorsque le débit est de 50 % et 50 mm/S lorsque le débit est de 200 %. Cela suppose que le facteur de vitesse de remplissage est de 100 %. Si vous le modifiez, les changements de vitesse seront plus ou moins importants selon que vous réduisez ou augmentez le facteur de vitesse. Notez que si vous modifiez le facteur de vitesse à partir de 100 %, le débit de l'extrudeuse changera.
 
-The slow scheme uses the normal print speed for the lowest flow and so all other flows will make the print speed reduce. So in your example, with the slow scheme, at 50% flow the speed will be 100 mm/S, at 100% flow the speed will be 50 mm/S and at 200% flow, the speed will be 25 mm/S.
+Le schéma lent utilise la vitesse d'impression normale pour le débit le plus faible et tous les autres débits réduiront la vitesse d'impression. Ainsi, dans votre exemple, avec le schéma lent, à un débit de 50 %, la vitesse sera de 100 mm/s, à un débit de 100 %, la vitesse sera de 50 mm/s et à un débit de 200 %, la vitesse sera de 25 mm/s.
 
 
 ### [Gradient Infill Speed Factor](gradient_infill_speed_factor.md)
-Scales the effect the infill speed scheme has on the print speed.
+Évalue l'effet du schéma de vitesse de remplissage sur la vitesse d'impression.
 
 ### [Gradient Infill Distance](gradient_infill_dist.md)
-The distance over which the infill flow is reduced from max to min.
+Distance sur laquelle le débit de remplissage est réduit de max à min.
 
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : gradient_infill_speed_scheme
