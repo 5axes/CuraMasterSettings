@@ -1,6 +1,6 @@
 # Support Roof Wall Line Count
 
-The number of walls with which to surround support interface roof. Adding a wall can make support print more reliably and can support overhangs better, but increases print time and material used.
+Nombre de murs entourant le plafond de l'interface du support. L'ajout d'un mur peut rendre l'impression du support plus fiable et peut mieux supporter les surplombs, mais augmente le temps d'impression et la matière utilisée.
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : support_roof_wall_count
 

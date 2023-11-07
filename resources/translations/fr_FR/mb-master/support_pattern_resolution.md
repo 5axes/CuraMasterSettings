@@ -1,11 +1,11 @@
 # Support Pattern Resolution
 
-The resolution of the support pattern of the print. High resolution produces the most accurate pattern, low resolution generates the fewest lines.
+La résolution du motif de support de l'impression. La haute résolution produit le motif le plus précis, la basse résolution génère le moins de lignes.
 
-## Support Pattern Resolution option 
+## Prise en charge de l'option de résolution des motifs 
 
-- High
-- Medium
-- Low
+- Haut
+- Moyen
+- Faible
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : support_pattern_resolution

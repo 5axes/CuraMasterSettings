@@ -1,12 +1,12 @@
 # Support Interface Wall Line Count
 
-The number of walls with which to surround support interface. Adding a wall can make support print more reliably and can support overhangs better, but increases print time and material used.
+Le nombre de murs qui entourent l'interface du support. L'ajout d'un mur peut rendre l'impression du support plus fiable et peut mieux supporter les surplombs, mais augmente le temps d'impression et la matière utilisée.
 
-![Support Interface Zero Wall Line](../../../articles/images-mb/support_interface_wall_count_0.png)
+![Interface de support Ligne de mur initiale](../../../articles/images-mb/support_interface_wall_count_0.png)
 
-![Support Interface One Wall Line](../../../articles/images-mb/support_interface_wall_count_1.png)
+![Interface de support Une ligne murale](../../../articles/images-mb/support_interface_wall_count_1.png)
 
-This parameter can be subdivided into two applications, one for setting the [Support Bottom Wall line Count](support_bottom_wall_count.md), the other for the [Support Roof Wall line Count](support_roof_wall_count.md).
+Ce paramètre peut être subdivisé en deux sous paramètres, l'un pour le réglage du nombre de ligne [Support Bottom Wall line Count](support_bottom_wall_count.md), l'autre pour le [Support Roof Wall line Count](support_roof_wall_count.md).
 
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : support_interface_wall_count
