@@ -23,7 +23,7 @@ Il est évident que vous ne pouvez pas taper grand-chose dans le petit champ de 
 
 Le nom du fichier peut être absolu ou relatif au répertoire à partir duquel le fichier de projet a été chargé ou au répertoire personnel de l'utilisateur.
 
-# Exemple de capacités
+# Exemple de possibilités
 
 Tous les exemples sont maintenant spécifiés sous la forme d'un fichier JSON. Voici un exemple très simple qui introduit le nom de l'option "x". Il s'attend à être suivi d'un tableau de coordonnées x et génère une seule ligne pour chaque coordonnée. Comme on peut s'y attendre, il y a aussi un nom de l'option "y".
 
