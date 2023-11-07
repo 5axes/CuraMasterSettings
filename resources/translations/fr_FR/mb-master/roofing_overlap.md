@@ -1,12 +1,12 @@
 # Top Surface Skin Overlap Percentage
 
-Adjust the amount of overlap between the walls and (the endpoints of) the top surface skin-centerlines, as a percentage of the line widths of the skin lines and the innermost wall. A slight overlap allows the walls to connect firmly to the skin. 
+Ajustez la quantité de chevauchement entre les murs et (les points d'extrémité des) lignes centrales de la peau de la surface supérieure, en pourcentage de la largeur des lignes de la peau et du mur le plus à l'intérieur. Un léger chevauchement permet aux murs de se raccorder fermement à la peau. 
 
-![Top Surface Skin Overlap Percentage](../images-mb/roofing_overlap.svg)
+![Pourcentage de chevauchement de la peau de la surface supérieure](../images-mb/roofing_overlap.svg)
 
-To be enabled the [Top Surface Skin Layers](../top_bottom/roofing_layer_count.md) must be  > 0 and [Top/Bottom Pattern](../top_bottom/top_bottom_pattern.md) must be different from  'Concentric'.
+Pour être activée, les [Couches de la surface supérieure](../top_bottom/roofing_layer_count.md) doit être > 0 et [Motif haut/bas](../top_bottom/top_bottom_pattern.md) doit être différent de 'Concentrique'.
 
-Note that, given an equal skin and wall line-width, any percentage over 50% may already cause any skin to go past the wall, because at that point the position of the nozzle of the skin-extruder may already reach past the middle of the wall.
+Il convient de noter qu'à largeur de ligne égale entre la peau et la paroi, tout pourcentage supérieur à 50 % peut déjà faire passer la peau au-delà de la paroi, car à ce moment-là, la position de la buse de l'extrudeuse de peau peut déjà dépasser le milieu de la paroi.
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : roofing_overlap
 

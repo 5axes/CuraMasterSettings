@@ -1,5 +1,5 @@
 # Ironing Fan Speed Override
 
-When enabled, the print cooling fan speed is altered for the ironed regions.
+Lorsque cette option est activée, la vitesse du ventilateur de refroidissement de l'impression est modifiée pour les zones lissées.
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : ironing_fan_enable

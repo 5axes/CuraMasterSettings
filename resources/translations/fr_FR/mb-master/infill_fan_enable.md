@@ -1,7 +1,7 @@
 # Infill Fan Speed Override
 
-When enabled, the print cooling fan speed is altered for the infill. Using a reduced or even zero fan speed when printing infill can make the part stronger. The new value for the fan speed is defined by the option [Infill Fan Speed](infill_fan_speed.md).
+Lorsqu'elle est activée, la vitesse du ventilateur de refroidissement de l'impression est modifiée pour le remplissage. L'utilisation d'une vitesse de ventilateur réduite, voire nulle, lors de l'impression du remplissage peut rendre la pièce plus résistante. La nouvelle valeur de la vitesse du ventilateur est définie par l'option [Infill Fan Speed](infill_fan_speed.md).
 
-The part cooling can have a tremendous impact on the layer adhesion with PLA. Basically, the difference between 100% fan and 0% fan was a pretty linear increase of strength up to 50% - the less cooling, the stronger the layer adhesion. The downside for normal printing is obviously worse overhangs and print quality in general. By using this special setting for the Infill area, you could increase the strength of the part for the Infill with no degradation of the overall visual quality.
+Le refroidissement de la pièce peut avoir un impact considérable sur l'adhérence de la couche avec le PLA. Fondamentalement, la différence entre un ventilateur à 100 % et un ventilateur à 0 % est une augmentation assez linéaire de la résistance jusqu'à 50 % - moins il y a de refroidissement, plus l'adhérence de la couche est forte. L'inconvénient pour l'impression normale est évidemment la détérioration des débords et de la qualité d'impression en général. En utilisant ce réglage spécial pour la zone de remplissage, vous pouvez augmenter la résistance de la pièce pour le remplissage sans dégradation de la qualité visuelle globale.
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : infill_fan_enable

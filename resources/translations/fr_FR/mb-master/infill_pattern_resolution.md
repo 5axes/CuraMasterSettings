@@ -1,19 +1,20 @@
 # Infill Pattern Resolution
 
-The resolution of the infill pattern of the print. High resolution produces the most accurate pattern, low resolution generates the fewest lines.
+La résolution du motif de remplissage de l'impression. La haute résolution produit le motif le plus précis, la basse résolution génère le moins de lignes.
 
 
-### Infill Pattern Resolution options 
+### Motif de remplissage Options de résolution 
 
-- High
+- Haut
 
-![High Infill Pattern Resolution](../../../articles/images-mb/infill_pattern_resolution-high.png)
+![Résolution élevée des motifs de remplissage](../../../articles/images-mb/infill_pattern_resolution-high.png)
 
-- Medium
+- Moyen
 
-![Medium Infill Pattern Resolution](../../../articles/images-mb/infill_pattern_resolution-medium.png)
-- Low
+![Résolution du motif de remplissage moyen](../../../articles/images-mb/infill_pattern_resolution-medium.png)
 
-![Low Infill Pattern Resolution](../../../articles/images-mb/infill_pattern_resolution-low.png)
+- Faible
+
+![Faible résolution des motifs de remplissage](../../../articles/images-mb/infill_pattern_resolution-low.png)
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : infill_pattern_resolution

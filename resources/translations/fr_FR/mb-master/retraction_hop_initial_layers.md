@@ -1,6 +1,6 @@
 # Z Hop Initial Layers
 
-The number of initial layers that use Z Hop. A non-zero value reduces the chance of the initial layer lines coming away from the build plate.
+Le nombre de couches initiales qui utilisent le Z Hop. Une valeur non nulle réduit le risque que les lignes de la couche initiale s'éloignent du plateau d'impression.
 
 Le paramètre suivant est défini dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : retraction_hop_initial_layers
 
