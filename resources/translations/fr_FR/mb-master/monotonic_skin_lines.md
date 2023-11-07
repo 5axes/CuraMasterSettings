@@ -1,6 +1,6 @@
 # Monotonic Skin Lines (mb-master)
 
-Imprimez les lignes de la peau de manière monotone. Cela peut améliorer la qualité visuelle de la peau. S'applique uniquement lorsque la fonction "Lignes"  pour le [motif du dessus/dessous](../top_bottom/top_bottom_pattern_lines.md) est activée.
+Imprimez les lignes de la peau de manière monotone. Cela peut améliorer la qualité visuelle de la peau. S'applique uniquement lorsque la fonction "Lignes"  pour le [motif du dessus/dessous](../top_bottom/top_bottom_pattern.md) est activée.
 
 Ce paramètre a été introduit avant que la version officielle de Cura n'intègre sa propre option de remplissage monotone [Ordre monotone dessus/dessous](../top_bottom/skin_monotonic.md). Le résultat obtenu étant différent, l'option de remplissage Cura-MAster a été conservée. 
 
