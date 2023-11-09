@@ -1,3 +1,3 @@
 Top Surface Inner Wall Acceleration
 ====
-The acceleration with which the top surface inner walls are printed.
+This setting controls the nozzle acceleration with which the top surface inner walls are printed.

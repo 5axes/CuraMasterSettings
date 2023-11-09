@@ -1,3 +1,5 @@
 Top Surface Outer Wall Acceleration
 ====
-The acceleration with which the top surface outermost walls are printed.
+This setting controls the nozzle acceleration with which the top surface outermost walls are printed.
+
+Changing the acceleration rate compared to the [Top/Bottom Acceleration](acceleration_topbottom.md) can offer to use a hight rate for the central Top area and a low acceleration for the outer wall. Since the top and bottom area typically consist of long straight lines, the nozzle can reach great speeds there. The nozzle must also make sharp corners with the typical lines pattern for skin, which requires great acceleration. However increasing acceleration will cause the printer to shake more as well, but the accuracy of the top and bottom sides is not normally a constraint because they are surrounded by walls and these walls can be print more precisely with a different acceleration.
