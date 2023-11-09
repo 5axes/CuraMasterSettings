@@ -28,6 +28,18 @@
   </metadata>
   <defs
      id="defs32">
+    <linearGradient
+       id="linearGradient2165"
+       inkscape:collect="always">
+      <stop
+         id="stop2161"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop2163"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" />
+    </linearGradient>
     <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
@@ -258,6 +270,15 @@
          height="4200525"
          id="rect1063" />
     </clipPath>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="829.44635"
+       x2="1055.4906"
+       y1="829.44635"
+       x1="468.95932"
+       id="linearGradient2167"
+       xlink:href="#linearGradient2165"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      inkscape:current-layer="svg28"
@@ -4095,7 +4116,7 @@ nprPtMgjw/L/A7pt2SUWvLSqAAAAAElFTkSuQmCC
 "
      preserveAspectRatio="none"
      height="949.70715"
-     width="1085.0364"
+     width="1095.5902"
      x="3.114984"
      y="3.2350461" />
   <!-- The render of the prime tower. Needs to be embedded in order to be rendered by QtSvg. -->
@@ -4111,11 +4132,11 @@ nprPtMgjw/L/A7pt2SUWvLSqAAAAAElFTkSuQmCC
      transform="translate(-11.841671,-27.663459)" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:400;font-size:64px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-size:64px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#e90000;stroke-opacity:1;"
      x="462.70932"
      y="846.69635"
      id="text947-9-7-9"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:#e90000;stroke-opacity:1;"
        sodipodi:role="line"
        x="462.70932"
        y="846.69635"
