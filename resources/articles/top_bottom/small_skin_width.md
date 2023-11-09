@@ -10,6 +10,6 @@ This value defines the size of **Small top/bottom regions** that are filled with
 In the images below, you can see the difference in pattern orientation when the fill area is smaller than the value specified in this parameter.
 
 
-![small top/bottom width off](../images/small_top_bottom_width_off.png)
+![small top/bottom width 0 mm original pattern](../images/small_top_bottom_width_off.png)
 
-![small top/bottom width off](../images/small_top_bottom_width_on.png)
+![small top/bottom width 4 mm](../images/small_top_bottom_width_on.png)
