@@ -1,4 +1,4 @@
-Small Top/Bottom Width
+Small Top/Bottom On Surface
 ====
 This setting enable small (up to '[Small Top/Bottom Width](small_skin_width.md)' regions on the topmost skinned layer (exposed to air) to be filled with parralel to contour path instead of the default pattern.
 
