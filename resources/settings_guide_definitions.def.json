@@ -16,12 +16,54 @@
 			"description": "New settings added with the latest version.",
 			"icon": "guide",
 			"children": {
-				"hole_xy_offset_max_diameter": {
-					"label": "Hole Horizontal Expansion Max Diameter",
-					"description": "hole_xy_offset_max_diameter",
+				"acceleration_wall_x_roofing": {
+					"label": "Top Surface Inner Wall Acceleration",
+					"description": "acceleration_wall_x_roofing",
 					"type": "str",
 					"default_value": ""
-				}
+				},
+				"acceleration_wall_0_roofing": {
+					"label": "Top Surface Outer Wall Acceleration",
+					"description": "acceleration_wall_0_roofing",
+					"type": "str",
+					"default_value": ""
+				},
+				"jerk_wall_x_roofing": {
+					"label": "Top Surface Inner Wall Jerk",
+					"description": "jerk_wall_x_roofing",
+					"type": "str",
+					"default_value": ""
+				},
+				"jerk_wall_0_roofing": {
+					"label": "Top Surface Outer Wall Jerk",
+					"description": "jerk_wall_0_roofing",
+					"type": "str",
+					"default_value": ""
+				},
+				"meshfix_fluid_motion_enabled": {
+					"label": "Enable Fluid Motion",
+					"description": "meshfix_fluid_motion_enabled, When enabled tool paths are corrected for printers with smooth motion planners",
+					"type": "str",
+					"default_value": ""
+				},
+				"meshfix_fluid_motion_shift_distance": {
+					"label": "Fluid Motion Shift Distance",
+					"description": "meshfix_fluid_motion_shift_distance, Distance points are shifted to smooth the path",
+					"type": "str",
+					"default_value": ""
+				},
+				"meshfix_fluid_motion_small_distance": {
+					"label": "Fluid Motion Shift Distance",
+					"description": "meshfix_fluid_motion_small_distance, Distance points are shifted to smooth the path",
+					"type": "str",
+					"default_value": ""
+				},
+				"meshfix_fluid_motion_angle": {
+					"label": "Fluid Motion Angle",
+					"description": "meshfix_fluid_motion_angle, If a toolpath-segment deviates more than this angle from the general motion it is smoothed.",
+					"type": "str",
+					"default_value": ""
+				},					
 			}
 		},		
 		"troubleshooting": {
