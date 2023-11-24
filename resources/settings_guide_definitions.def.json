@@ -63,6 +63,30 @@
 					"description": "meshfix_fluid_motion_angle, If a toolpath-segment deviates more than this angle from the general motion it is smoothed.",
 					"type": "str",
 					"default_value": ""
+				},
+				"cool_min_temperature": {
+					"label": "Fluid Motion Angle",
+					"description": "cool_min_temperature, Gradually reduce to this temperature when printing at reduced speeds because of minimum layer time.",
+					"type": "str",
+					"default_value": ""
+				},
+				"brim_inside_margin": {
+					"label": "Brim Inside Avoid Margin",
+					"description": "brim_inside_margin, A part fully enclosed inside another part can generate an outer brim that touches the inside of the other part.",
+					"type": "str",
+					"default_value": ""
+				},
+				"skirt_height": {
+					"label": "Skirt Height",
+					"description": "skirt_height, Printing the innermost skirt line with multiple layers makes it easy to remove the skirt.",
+					"type": "str",
+					"default_value": ""
+				},
+				"brim_smart_ordering": {
+					"label": "Smart Brim",
+					"description": "brim_smart_ordering, Swap print order of the innermost and second innermost brim lines.",
+					"type": "str",
+					"default_value": ""
 				}				
 			}
 		},		
