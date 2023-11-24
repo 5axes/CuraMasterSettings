@@ -10,6 +10,20 @@
 		"position": 0
 	},
 	"settings": {
+		"whatsnew": {
+			"label": "What's New",
+			"type": "category",
+			"description": "New settings added with the latest version.",
+			"icon": "guide",
+			"children": {
+				"hole_xy_offset_max_diameter": {
+					"label": "Hole Horizontal Expansion Max Diameter",
+					"description": "hole_xy_offset_max_diameter",
+					"type": "str",
+					"default_value": ""
+				}
+			}
+		},		
 		"troubleshooting": {
 			"label": "Troubleshooting",
 			"type": "category",
