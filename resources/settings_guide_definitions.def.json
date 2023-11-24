@@ -63,7 +63,7 @@
 					"description": "meshfix_fluid_motion_angle, If a toolpath-segment deviates more than this angle from the general motion it is smoothed.",
 					"type": "str",
 					"default_value": ""
-				},					
+				}				
 			}
 		},		
 		"troubleshooting": {
