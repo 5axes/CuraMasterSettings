@@ -1,5 +1,15 @@
 # What's changed recently?
 
+* 4.20.14 - Adding a section where we found the last Cura Parameters
+
+* 4.20.13 - Adding Parameters from Standard Cura Release Cura 5.4 / 5.5
+
+* 4.20.12 - Possibility to open directly JSON file from the Settings Guide MAinly for Discret lines parameters
+
+* 4.20.11 - New release compatible with Cura Master , Adding the parameter specific of the Cura master release (https://github.com/smartavionics/Cura/tree/mb-master)
+
+* 4.20.10 - It's the last release supported by Ghostkeeper
+
 * 4.20.10 - Added Bridge Wall Layers, Maximum Bridge Wall Length, Overhanging Wall Flow and Z Seam Not Over Air settings + stopped gyroid infill bleeding through walls + 
 reimplemented detection and printing of bridge walls.
 
