@@ -87,7 +87,14 @@
 					"description": "brim_smart_ordering, Swap print order of the innermost and second innermost brim lines.",
 					"type": "str",
 					"default_value": ""
+				},
+				"group_outer_walls": {
+					"label": "Group Outer Walls",
+					"description": "group_outer_walls, Outer walls of different islands in the same layer are printed in sequence.",
+					"type": "str",
+					"default_value": ""
 				}				
+				
 			}
 		},		
 		"troubleshooting": {
