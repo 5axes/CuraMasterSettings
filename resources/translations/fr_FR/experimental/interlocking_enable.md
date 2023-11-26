@@ -3,7 +3,7 @@ Générer une structure de connexion
 
 Cette option permet de générer, aux endroits où les modèles se touchent, une structure de structures imbriquées. Cela permet d'améliorer l'adhérence entre les modèles, en particulier les modèles imprimés dans des matériaux différents.
 
-![Interlocking sample](../../articles/images/interlocking_model.jpg)
+![Interlocking sample](../../../articles/images/interlocking_model.jpg)
 
 
 Cette structure de chevauchement alterné "verrouille" physiquement les deux matériaux ensemble, de sorte que la force du lien entre eux ne dépend plus de leur compatibilité, mais est seulement limitée par la force du plus faible des deux matériaux.
@@ -17,7 +17,7 @@ Vous n'avez pas non plus à vous soucier d'utiliser des solutions de contourneme
  
 Pour vérifier que le réglage a été correctement appliqué, vous pouvez aller dans l'onglet de prévisualisation dans Cura, et utiliser la barre de défilement sur le côté droit de l'écran pour passer à une partie de l'impression où les deux matériaux se rencontrent. Le motif d'emboîtement apparaîtra dans la partie découpée comme suit :
 
-![Structure de connexion](../../articles/images/interlocking_pattern.png)
+![Structure de connexion](../../../articles/images/interlocking_pattern.png)
 
 
 Les structures de connexion peuvent être adaptées à l'aide des paramètres suivants :
