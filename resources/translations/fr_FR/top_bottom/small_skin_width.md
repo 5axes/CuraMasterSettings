@@ -9,6 +9,6 @@ Cette valeur définit la taille des **Petites régions haut/bas** qui sont rempl
 
 Dans les images ci-dessous, vous pouvez voir la différence d'orientation du motif lorsque la zone de remplissage est plus petite que la valeur spécifiée dans ce paramètre.
 
-![petite largeur supérieure/inférieure 0 mm modèle original](../../../images/small_top_bottom_width_off.png)
+![petite largeur supérieure/inférieure 0 mm modèle original](../../../articles/images/small_top_bottom_width_off.png)
 
-![petite largeur supérieure/inférieure 4 mm](../../../images/small_top_bottom_width_on.png)
+![petite largeur supérieure/inférieure 4 mm](../../../articles/images/small_top_bottom_width_on.png)
