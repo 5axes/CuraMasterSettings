@@ -1,5 +1,5 @@
 Interlocking Structure Orientation
 ====
-The height of the beams of the interlocking structure, measured in number of layers. Less layers is stronger, but more prone to defects.
+The orientation of the beams of the interlocking structure, defined in degree as an angle. 
 
 ![Interlocking Structure Orientation](../images/interlocking.svg)
