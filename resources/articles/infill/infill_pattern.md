@@ -363,3 +363,12 @@ This infill pattern has been requested by a user who has specific requirements r
 The infill pattern mus be definied via the [Discrete Lines Infill Pattern](../mb-master/discrete_lines_infill_definition.md)
 
 <!--endif-->
+
+<!--if cura_version>=4.20-->
+Scattered Rectilinear
+----
+
+This filling enables random filling of the model in a linear direction, but which changes orientation and spacing on each layer. The result is a filling that statistically ensures the presence of filling for the zones to be supported, whereas regular filling risks not generating a filling line under the zones requiring it, particularly if the filling density is low.
+
+![Scattered Rectilinear](../images-mb/infill_scattered_rectilinear.png)
+<!--endif-->
