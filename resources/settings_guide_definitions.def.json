@@ -93,8 +93,13 @@
 					"description": "group_outer_walls, Outer walls of different islands in the same layer are printed in sequence.",
 					"type": "str",
 					"default_value": ""
-				}				
-				
+				},
+				"hole_xy_offset_max_diameter": {
+					"label": "Hole Horizontal Expansion Max Diameter",
+					"description": "hole_xy_offset_max_diameter, When greater than zero, the Hole Horizontal Expansion is gradually applied on small holes (small holes are expanded more).",
+					"type": "str",
+					"default_value": ""
+				}
 			}
 		},		
 		"troubleshooting": {
