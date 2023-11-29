@@ -5,3 +5,6 @@ The distance between the raft lines for the unique prime tower raft layer. Wide 
 ![Prime Tower Base Slope](../images/prime_tower_56.svg)
 
 You can modify these settings to avoid over-adhesion that may damage your build plate.
+
+
+This parameter is active only if the [adhesion type](../platform_adhesion/adhesion_type.md) is set to Raft.
