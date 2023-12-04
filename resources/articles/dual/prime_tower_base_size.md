@@ -1,4 +1,4 @@
-Prime Tower Base Height
+Prime Tower Base Size
 ====
 The width of the prime tower brim/base. A larger base enhances adhesion to the build plate, but also reduces the effective print area.
 
