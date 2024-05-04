@@ -1,7 +1,7 @@
 {
 	"name": "Settings Guide",
 	"author": "Ghostkeeper - 5@xes",
-	"version": "4.20.15",
+	"version": "4.20.19",
 	"description": "Provides extra information and explanations about settings in Cura-Master, with images and animations.",
 	"api": 6,
 	"supported_sdk_versions": ["6.0.0", "7.0.0", "8.0.0"]
