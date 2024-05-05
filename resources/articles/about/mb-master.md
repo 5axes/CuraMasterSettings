@@ -1,3 +1,85 @@
+# What's different from the regular master branch?
+
+* Initial Layer Wall Speed/Acceleration/Jerk lets you specify those values for the walls on the initial layer.
+
+* Initial Fan Speed At Height/Layer lets you specify the layer at which the initial fan speed comes into effect. Below that layer, the fans are off.
+
+* Improved wall overlap compensation.
+
+* Improved handling of inter-wall gap filling and thin walls.
+
+* Use combing distances when deciding print order of inner walls.
+
+* Added Cooling Fan Lag setting thus allowing the fan to reach the required speed before the fan override region is encountered.
+
+* Added Overhanging Wall Fan Speed setting to override fan speed when printing overhung walls and Ignore Support Below Overhangs setting.
+
+* Spiralized models that are not 100% solid can be printed using variable line widths.
+
+* Implementation of [gradient infill](https://www.cnckitchen.com/blog/gradient-infill-for-3d-prints).
+
+* Added ability to override fan speed when printing infill.
+
+* Reworked handling of bridge skins - now partitions skins into bridged and non-bridged regions and processes each region separately.
+
+* Anti-resonance feature.
+
+* Settings to disable combing on initial layer and use z-hop only on initial layer.
+
+* Setting to enable bridging over support.
+
+* (Very experimental) settings to modify print temperature within a mesh.
+
+* Increase skin layer counts to maintain skin thickness when using variable layer heights.
+
+* Medium and low resolution gyroid infill variants.
+
+* Setting to fill the holes in the gyroid pattern.
+
+* 3d infill patterns can be scaled in the vertical direction.
+
+* Add Schwarz P and Schwarz D infill patterns.
+
+* Setting to enable z hop for just initial layers.
+
+* Elimination of z-seam wobble when z-seam alignment is user-specified and z-seam corner preference is none.
+
+* Added compact prime tower and other settings to improve compatibility with Palette II.
+
+* Added setting to remove holes in skin that are above air, this makes it easier to make holes for fasteners where you have a small diameter hole above a larger diameter hole. After printing, just drill out the single layer that closes the bottom of the small diameter hole.
+
+* Added settings to avoid underextrusion when printing short skin lines.
+
+* Added honeycomb pattern for infill and support.
+
+* Added monotonic skin printing.
+
+* Added setting to restrict hole horizontal expansion to those holes whose perimeter length is less than the setting value.
+
+* Added Hilbert pattern for infill and skins.
+
+* Added settings to control spacing and rotation when models are rearranged.
+
+* Added setting to specify z-offset of skirt and brim lines.
+
+* Added setting to specify that brim lines should only be printed on inside (i.e. within holes) of model.
+
+* Added preference to move models loaded from 3mf files not created by Cura to the centre of the buildplate.
+
+* Added setting to taper the horizontal expansion at the bottom of the model.
+
+* Added setting to force gyroid lines to "cross" so minimising the size of the holes in the pattern.
+
+* Added settings to surround the bottom skin and the visible top skins with only 1 wall.
+
+* Added Discrete Lines infill pattern.
+
+* Added settings to specify overlap of bridge skins.
+
+* Added settings to specify overlap of top surface skins.
+
+* Improved random z-seam positioning.
+
 # What new settings are provided?
 
 * **Minimum Gap Area** Filter out gaps whose area is less than this.
