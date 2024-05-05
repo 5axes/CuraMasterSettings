@@ -1,0 +1,6 @@
+Accélération Surface supérieure Paroi extérieure 
+====
+
+Ce paramètre contrôle l'accélération de la buse avec laquelle les parois extérieures de la surface supérieure sont imprimées. Ce paramètre peut être configuré séparément du reste de la couche supérieure.
+
+La modification du taux d'accélération par rapport au paramètre [Accélération haut/bas] (acceleration_topbottom.md) peut permettre d'utiliser un taux élevé pour la zone centrale du haut et une faible accélération pour la paroi extérieure. Comme les zones supérieure et inférieure sont généralement constituées de longues lignes droites, la buse peut y atteindre de grandes vitesses. La buse doit également réaliser des angles vifs avec les lignes typiques de la peau, ce qui nécessite une forte accélération. Cependant, l'augmentation de l'accélération fera trembler davantage l'imprimante, mais la précision des côtés supérieur et inférieur n'est normalement pas une contrainte parce qu'ils sont entourés de murs et que ces murs peuvent être imprimés avec plus de précision avec une accélération différente.
