@@ -157,3 +157,82 @@ Le motif de remplissage de type éclair est un motif minimal en dents de scie qu
 * Empêche les remplissages de transparaitre à travers les murs à de nombreux endroits, simplement en n'ayant pas de remplissages.
 * N'augmente pas la résistance de la pièce de manière significative.
 <!--endif-->
+
+
+<!--if cura_version>=4.14-->
+Schwarz P
+----
+
+Le motif de remplissage Schwarz P produit un motif ondulé qui alterne les directions. Il est appelé "primitif" parce qu'il comporte deux labyrinthes congruents entrelacés, chacun ayant la forme d'une version tubulaire gonflée du treillis cubique simple. Alors que la surface P standard a une symétrie cubique, la cellule unitaire peut être n'importe quelle boîte rectangulaire, produisant une famille de surfaces minimales avec la même topologie.
+
+Elle peut être approchée par la surface implicite : ***cos(x)+ cos(y)+ cos(z)=0***
+
+* La surface P a été envisagée pour le prototypage avec un rapport surface/volume et une porosité élevés.
+* Également résistante dans toutes les directions, mais pas très rigide. Elle est donc utile pour les matériaux flexibles, mais le résultat sera un peu plus dur, moins moelleux, que les motifs de remplissage en croix (3D).
+* Il n'y a pas de lignes qui se chevauchent dans ce motif, ce qui permet d'imprimer plus facilement des matériaux ayant une tension de surface plus élevée et rend le remplissage très fiable et cohérent.
+* Résistant au cisaillement.
+* Le découpage prend beaucoup de temps et produit de gros fichiers de code g. Pour certains imprimeurs, il peut être difficile d'obtenir des résultats satisfaisants. Pour certaines imprimantes, il peut être difficile de suivre les nombreuses commandes de code g par seconde, et il peut être difficile de suivre sur une connexion série à faible vitesse de transmission.
+
+Page Wikipédia sur [Schwarz minimal surface](https://en.wikipedia.org/wiki/Schwarz_minimal_surface).
+
+Schwarz D
+----
+
+Le motif de remplissage Schwarz D produit un motif ondulé qui alterne les directions. Il est appelé "diamant" parce qu'il comporte deux labyrinthes congruents entrelacés, chacun ayant la forme d'une version tubulaire gonflée de la structure de liaison du diamant. Dans la littérature, on l'appelle parfois la surface F.
+
+Elle peut être approchée par la surface implicite : ***sin(x)sin(y)sin(z)+sin(x)cos(y)cos(z)+cos(x)sin(y)cos(z)+cos(x)cos(y)sin(z)=0.***
+
+* Également solide dans toutes les directions, mais pas très rigide. Il est donc utile pour les matériaux flexibles, mais le résultat sera un peu plus dur, moins moelleux, que les motifs de remplissage Cross (3D).
+* Il n'y a pas de lignes qui se chevauchent dans ce motif, ce qui permet d'imprimer plus facilement des matériaux ayant une tension de surface plus élevée et rend le remplissage très fiable et cohérent.
+* Résistant au cisaillement.
+* Le découpage prend beaucoup de temps et produit de gros fichiers de code g. Pour certains imprimeurs, il peut être difficile d'obtenir des résultats satisfaisants. Pour certaines imprimantes, il peut être difficile de suivre les nombreuses commandes de code g par seconde, et il peut être difficile de suivre sur une connexion série à faible vitesse de transmission.
+
+Page Wikipédia sur [Schwarz minimal surface](https://en.wikipedia.org/wiki/Schwarz_minimal_surface).
+
+Courbe de Hilbert
+----
+
+Le motif de remplissage Hilbert Curve produit un motif de type Hilbert Curve.
+
+
+Nid d'abeille
+----
+
+Le motif de remplissage Nid d'abeille produit un motif de type Nid d'abeille.
+
+Discrete Lines
+----
+
+Ce modèle de remplissage a été demandé par un utilisateur qui a des exigences spécifiques concernant l'emplacement des lignes de remplissage. Il doit pouvoir contrôler explicitement l'emplacement des lignes de remplissage. Pour ce faire, les lignes de remplissage sont spécifiées soit par une chaîne JSON littérale, soit par un fichier contenant un ou plusieurs objets JSON, chaque objet spécifiant les caractéristiques d'une région de remplissage.
+
+Le modèle de remplissage peut être défini à l'aide de la fonction [Discrete Lines Infill Pattern](../mb-master/discrete_lines_infill_definition.md)
+
+<!--endif-->
+
+<!--if cura_version>=4.20-->
+Éparses Rectilignes
+----
+
+Ce remplissage permet un remplissage aléatoire du modèle dans une direction linéaire, mais qui change d'orientation et d'espacement sur chaque couche. Il en résulte un remplissage qui assure statistiquement la présence de remplissage pour les zones à soutenir, alors que le remplissage régulier risque de ne pas générer de ligne de remplissage sous les zones qui le nécessitent, surtout si la densité de remplissage est faible.
+
+![Scattered Rectilinear](../../../articles/images-mb/infill_scattered_rectilinear.png)
+<!--endif-->
+
+<!--if cura_version>=4.20-->
+Vague sinusoïdales
+----
+
+Le motif de remplissageVague sinusoïdales produit un motif de type Onde sinusoïdale.
+
+![Sine Wave](../../../articles/images-mb/infill_sine_wave.png)
+<!--endif-->
+
+<!--if cura_version>=4.20-->
+Vague triangulaire
+----
+
+Le motif de remplissage Vague triangulaire produit un motif de style Vague triangulaire.
+
+![Triangular Wave](../../../articles/images-mb/infill_triangular_wave.png)
+<!--endif-->
+

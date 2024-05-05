@@ -1,6 +1,6 @@
 # Minimum Gap Area
 
-Filter out gaps whose area is less than this.  To be effective the option [Fill Gaps Between Walls](../shell/fill_perimeter_gap.md) must be active.
+Filter out gaps whose area is less than this.  To be effective the option [Fill Gaps Between Walls](../shell/fill_perimeter_gaps.md) must be active.
 
 ![Fill gap Active with low Minimum Gap Area](../images-mb/min_gap_area_01.png)
 ![Fill gap Active with high Minimum Gap Area](../images-mb/min_gap_area_02.png)

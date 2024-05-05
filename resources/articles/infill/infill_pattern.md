@@ -372,3 +372,21 @@ This filling enables random filling of the model in a linear direction, but whic
 
 ![Scattered Rectilinear](../images-mb/infill_scattered_rectilinear.png)
 <!--endif-->
+
+<!--if cura_version>=4.20-->
+Sine Wave
+----
+
+The Sine Wave infill pattern produces a Sine Wave style pattern.
+
+![Sine Wave](../images-mb/infill_sine_wave.png)
+<!--endif-->
+
+<!--if cura_version>=4.20-->
+Triangular Wave
+----
+
+The Triangular Wave infill pattern produces a Triangular Wave style pattern.
+
+![Triangular Wave](../images-mb/infill_triangular_wave.png)
+<!--endif-->
