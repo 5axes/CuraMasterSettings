@@ -2,6 +2,8 @@
 
 This Cura plug-in provides additional explanations with pictures and animations for every Cura settings. It's based on the excelent Plugin [SettingsGuide](https://github.com/Ghostkeeper/SettingsGuide#readme) developed by [Ghostkeeper](https://github.com/Ghostkeeper). But I have integrated somme additionnal articles relative to the [Cura Master Release](https://github.com/smartavionics/Cura/tree/mb-master).
 
+The information in this plugin are also compatible with normal versions of Cura up to [Release 5.7](https://github.com/Ultimaker/Cura/releases/tag/5.7.0).
+
 ![Example](example.png)
 
 ## Installation
