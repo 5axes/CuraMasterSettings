@@ -14,7 +14,7 @@ You can choose between the following options :
 
 ![Brim Inside Only](../images/brim_inside.png)
 
-![Brim Everywhere Only](../images/brim_everywhere.png)
+![Brim Everywhere](../images/brim_everywhere.png)
 
 
 This option is only visible if the [Build Plate Adhesion Types](adhesion_type.md) is defined on **Brim**..
