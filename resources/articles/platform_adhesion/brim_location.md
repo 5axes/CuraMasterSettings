@@ -4,14 +4,18 @@ Print a brim on the outside of the model, inside, or both. Depending on the mode
 
 You can choose between the following options :
 
-- Outside Only : Create a border only on the outside of a room.
-- Inside Only : Create a border only on the inside of a room.
-- Everywhere : Creating borders on the outside and inside
+- Outside Only : Create a brim only on the outside of a part. 
+- Inside Only : Create a brim only on the inside of a part.
+- Everywhere : Creating brims on the outside and inside of a part.
 
+**Note** : The notion of outside refers to the edge located on the outside of a part, but which may be inside the whole part.
 
-![Brim Outside Only](../images/brim_outside.svg)
-![Brim Inside Only](../images/brim_inside.svg)
-![Brim Everywhere Only](../images/brim_everywhere.svg)
+![Brim Outside Only](../images/brim_outside.png)
+
+![Brim Inside Only](../images/brim_inside.png)
+
+![Brim Everywhere Only](../images/brim_everywhere.png)
+
 
 This option is only visible if the [Build Plate Adhesion Types](adhesion_type.md) is defined on **Brim**..
 
