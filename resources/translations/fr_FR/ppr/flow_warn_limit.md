@@ -1,5 +1,5 @@
-# Flow Warning
+# Avertissement de débit		
 
-Limit on the flow warning for detection.
+Limite de l'avertissement de débit pour la détection.
 
-Enable if [Enable Print Process Reporting](ppr_enable.md) is set to on.
+Actif si [Activer le rapport sur le processus d'impression](ppr_enable.md) est activée
