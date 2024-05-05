@@ -1,3 +1,3 @@
-Enable Fluid Motion
+Fluid Motion Shift Distance
 ====
-Distance points are shifted to smooth the path.
+Les points de distance sont décalés pour lisser le chemin.
