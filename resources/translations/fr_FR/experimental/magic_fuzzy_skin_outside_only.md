@@ -1,4 +1,4 @@
-Peau floue magique à l'extérieur uniquement
+Couche floue magique à l'extérieur uniquement
 ====
 Si ce paramètre est activé, l'effet [Surfaces floues](magic_fuzzy_skin_enabled.md) ne sera appliqué qu'aux parois extérieurs de l'impression.
 

@@ -2,4 +2,7 @@
 
 Un masque de bits qui sélectionne la ou les heuristiques à utiliser pour déterminer si un mur est orienté vers l'extérieur ou non (YMMV). Les valeurs du masque de bits sont les suivantes : 1 = heuristique de la coque convexe. 2 = heuristique "ray-trace".
 
+
+Le paramètre n'est visible que si l'option [Couche Floue à l'extérieur uniquement](../experimental/magic_fuzzy_skin_outside_only.md) est activée.
+
 Les paramètres suivants sont définis dans [fdmprinter.def.json](https://github.com/smartavionics/Cura/blob/mb-master/resources/definitions/fdmprinter.def.json) : magic_fuzzy_skin_outside_only_heuristics
