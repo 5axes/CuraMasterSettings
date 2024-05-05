@@ -1,5 +1,15 @@
 # What's changed recently?
 
+* 4.20.19 - Update to Cura 5.7 parameters
+
+* 4.20.18 - Update to Cura 5.6 parameters
+
+* 4.20.17 - Update to Cura 4.20.17 parameters
+
+* 4.20.16 - Update to Cura 4.20.16 parameters
+
+* 4.20.15 - Update to Cura 4.20.15 parameters
+
 * 4.20.14 - Adding a section where we found the last Cura Parameters
 
 * 4.20.13 - Adding Parameters from Standard Cura Release Cura 5.4 / 5.5

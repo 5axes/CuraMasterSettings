@@ -1,5 +1,10 @@
-Set Print Sequence Manually
+Définition manuelle de la séquence d'impression
 ====
-Allows you to order the object list to manually set the print sequence. First object from the list will be printed first.
+Permet d'ordonner la liste des objets pour définir manuellement la séquence d'impression. Le premier objet de la liste sera imprimé en premier.
 
-To be visible, the parameter [Print Sequence](print_sequence.md) must be set to "One at a time".
+Une fois activé il est possible via un nouveau menu qui permet de modifier l'ordre d'impression des pièces présentes sur le plateau d'impression.
+
+![Menu pour modifier la séquence d'impression](../../../articles/images/menu_print_sequence.png)
+
+
+Pour être visible, le paramètre [Print Sequence](print_sequence.md) doit être réglé sur "Un à la fois".
