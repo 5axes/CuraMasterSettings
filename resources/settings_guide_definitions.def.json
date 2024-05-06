@@ -99,6 +99,18 @@
 					"description": "hole_xy_offset_max_diameter, When greater than zero, the Hole Horizontal Expansion is gradually applied on small holes (small holes are expanded more).",
 					"type": "str",
 					"default_value": ""
+				},
+				"magic_fuzzy_skin_outside_only_heuristics": {
+					"label": "Fuzzy Skin Outside Only Heuristics",
+					"description": "magic_fuzzy_skin_outside_only_heuristics, A bit mask that selects the heuristic(s) to use when determining if a wall is facing outside or not (YMMV). The bit mask values are: 1 = convex hull heuristic. 2 = 'ray-trace' heuristic.",
+					"type": "str",
+					"default_value": ""
+				},
+				"magic_fuzzy_skin_layer_ranges": {
+					"label": "Fuzzy Skin Layer Ranges",
+					"description": "magic_fuzzy_skin_layer_ranges, Specify the layers to have fuzzy skin. Can be empty (fuzz all layers), a single number (max layer to be fuzzed) or one or more ranges of the form START-END separated by commas or spaces.",
+					"type": "str",
+					"default_value": ""
 				}
 			}
 		},		
