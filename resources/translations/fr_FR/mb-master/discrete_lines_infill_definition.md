@@ -1,6 +1,6 @@
 # Discrete Lines Infill Pattern
 
-Cette expérience **_Discrete Lines infill pattern_**  est apparu dans la version 4.20.5. Ce motif de remplissage a été demandé par un utilisateur qui a des exigences spécifiques concernant l'emplacement des lignes de remplissage. Il doit pouvoir contrôler explicitement l'emplacement des lignes de remplissage. Pour ce faire, les lignes de remplissage sont spécifiées soit par une chaîne JSON littérale, soit par un fichier contenant un ou plusieurs objets JSON, chaque objet spécifiant les caractéristiques d'une région de remplissage.
+Cette nouveautée **_Discrete Lines infill pattern_**  est apparue dans la version 4.20.5. Ce motif de remplissage avait été demandé par un utilisateur qui avait des exigences spécifiques concernant l'emplacement des lignes de remplissage. Ce remplissage permet de contrôler explicitement l'emplacement des lignes de remplissage. Pour ce faire, les lignes de remplissage sont spécifiées soit par une chaîne JSON littérale, soit par un fichier contenant un ou plusieurs objets JSON, chaque objet spécifiant les caractéristiques d'une région de remplissage.
 
 Voici quelques exemples qui illustrent les capacités actuelles...
 

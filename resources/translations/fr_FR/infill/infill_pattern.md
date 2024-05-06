@@ -159,7 +159,7 @@ Le motif de remplissage de type éclair est un motif minimal en dents de scie qu
 <!--endif-->
 
 <!--if cura_version>=4.14-->
-<!--if cura_version<5.0-->
+
 Schwarz P
 ----
 
@@ -217,10 +217,8 @@ Ce modèle de remplissage a été demandé par un utilisateur qui a des exigence
 Le modèle de remplissage peut être défini à l'aide de la fonction [Discrete Lines Infill Pattern](../mb-master/discrete_lines_infill_definition.md)
 
 <!--endif-->
-<!--endif-->
 
 <!--if cura_version>=4.20-->
-<!--if cura_version<5.0-->
 Éparses Rectilignes
 ----
 
@@ -243,5 +241,5 @@ Vague triangulaire
 Le motif de remplissage Vague triangulaire produit un motif de style Vague triangulaire.
 
 ![Triangular Wave](../../../articles/images-mb/infill_triangular_wave.png)
-<!--endif-->
+
 <!--endif-->

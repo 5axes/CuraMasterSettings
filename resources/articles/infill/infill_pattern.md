@@ -315,7 +315,7 @@ The lightning infill pattern is a jagged minimal pattern that only aims to suppo
 
 
 <!--if cura_version>=4.14-->
-<!--if cura_version<5.0-->
+
 Schwarz P
 ----
 
@@ -371,11 +371,11 @@ This infill pattern has been requested by a user who has specific requirements r
 
 The infill pattern mus be definied via the [Discrete Lines Infill Pattern](../mb-master/discrete_lines_infill_definition.md)
 
-<!--endif-->
+
 <!--endif-->
 
 <!--if cura_version>=4.20-->
-<!--if cura_version<5.0-->
+
 Scattered Rectilinear
 ----
 
@@ -398,5 +398,5 @@ Triangular Wave
 The Triangular Wave infill pattern produces a Triangular Wave style pattern.
 
 ![Triangular Wave](../images-mb/infill_triangular_wave.png)
-<!--endif-->
+
 <!--endif-->
