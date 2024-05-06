@@ -173,7 +173,7 @@ Elle peut être approchée par la surface implicite : ***cos(x)+ cos(y)+ cos(z)=
 * Résistant au cisaillement.
 * Le découpage prend beaucoup de temps et produit de gros fichiers de code g. Pour certains imprimeurs, il peut être difficile d'obtenir des résultats satisfaisants. Pour certaines imprimantes, il peut être difficile de suivre les nombreuses commandes de code g par seconde, et il peut être difficile de suivre sur une connexion série à faible vitesse de transmission.
 
-![Schwarz P](../../../articles/images-mb/infill_schwarz_p.png
+![Schwarz P](../../../articles/images-mb/infill_schwarz_p.png)
 
 
 Page Wikipédia sur [Schwarz minimal surface](https://en.wikipedia.org/wiki/Schwarz_minimal_surface).
