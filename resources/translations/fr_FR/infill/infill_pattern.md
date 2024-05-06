@@ -158,8 +158,8 @@ Le motif de remplissage de type éclair est un motif minimal en dents de scie qu
 * N'augmente pas la résistance de la pièce de manière significative.
 <!--endif-->
 
-
 <!--if cura_version>=4.14-->
+<!--if cura_version<5.0-->
 Schwarz P
 ----
 
@@ -217,26 +217,26 @@ Ce modèle de remplissage a été demandé par un utilisateur qui a des exigence
 Le modèle de remplissage peut être défini à l'aide de la fonction [Discrete Lines Infill Pattern](../mb-master/discrete_lines_infill_definition.md)
 
 <!--endif-->
+<!--endif-->
 
 <!--if cura_version>=4.20-->
+<!--if cura_version<5.0-->
 Éparses Rectilignes
 ----
 
 Ce remplissage permet un remplissage aléatoire du modèle dans une direction linéaire, mais qui change d'orientation et d'espacement sur chaque couche. Il en résulte un remplissage qui assure statistiquement la présence de remplissage pour les zones à soutenir, alors que le remplissage régulier risque de ne pas générer de ligne de remplissage sous les zones qui le nécessitent, surtout si la densité de remplissage est faible.
 
 ![Scattered Rectilinear](../../../articles/images-mb/infill_scattered_rectilinear.png)
-<!--endif-->
 
-<!--if cura_version>=4.20-->
+
 Vague sinusoïdales
 ----
 
 Le motif de remplissageVague sinusoïdales produit un motif de type Onde sinusoïdale.
 
 ![Sine Wave](../../../articles/images-mb/infill_sine_wave.png)
-<!--endif-->
 
-<!--if cura_version>=4.20-->
+
 Vague triangulaire
 ----
 
@@ -244,4 +244,4 @@ Le motif de remplissage Vague triangulaire produit un motif de style Vague trian
 
 ![Triangular Wave](../../../articles/images-mb/infill_triangular_wave.png)
 <!--endif-->
-
+<!--endif-->

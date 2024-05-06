@@ -315,6 +315,7 @@ The lightning infill pattern is a jagged minimal pattern that only aims to suppo
 
 
 <!--if cura_version>=4.14-->
+<!--if cura_version<5.0-->
 Schwarz P
 ----
 
@@ -371,30 +372,31 @@ This infill pattern has been requested by a user who has specific requirements r
 The infill pattern mus be definied via the [Discrete Lines Infill Pattern](../mb-master/discrete_lines_infill_definition.md)
 
 <!--endif-->
+<!--endif-->
 
 <!--if cura_version>=4.20-->
+<!--if cura_version<5.0-->
 Scattered Rectilinear
 ----
 
 This filling enables random filling of the model in a linear direction, but which changes orientation and spacing on each layer. The result is a filling that statistically ensures the presence of filling for the zones to be supported, whereas regular filling risks not generating a filling line under the zones requiring it, particularly if the filling density is low.
 
 ![Scattered Rectilinear](../images-mb/infill_scattered_rectilinear.png)
-<!--endif-->
 
-<!--if cura_version>=4.20-->
+
 Sine Wave
 ----
 
 The Sine Wave infill pattern produces a Sine Wave style pattern.
 
 ![Sine Wave](../images-mb/infill_sine_wave.png)
-<!--endif-->
 
-<!--if cura_version>=4.20-->
+
 Triangular Wave
 ----
 
 The Triangular Wave infill pattern produces a Triangular Wave style pattern.
 
 ![Triangular Wave](../images-mb/infill_triangular_wave.png)
+<!--endif-->
 <!--endif-->
