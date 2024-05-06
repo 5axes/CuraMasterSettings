@@ -173,6 +173,9 @@ Elle peut être approchée par la surface implicite : ***cos(x)+ cos(y)+ cos(z)=
 * Résistant au cisaillement.
 * Le découpage prend beaucoup de temps et produit de gros fichiers de code g. Pour certains imprimeurs, il peut être difficile d'obtenir des résultats satisfaisants. Pour certaines imprimantes, il peut être difficile de suivre les nombreuses commandes de code g par seconde, et il peut être difficile de suivre sur une connexion série à faible vitesse de transmission.
 
+![Schwarz P](../../../articles/images-mb/infill_schwarz_p.png
+
+
 Page Wikipédia sur [Schwarz minimal surface](https://en.wikipedia.org/wiki/Schwarz_minimal_surface).
 
 Schwarz D
@@ -187,6 +190,8 @@ Elle peut être approchée par la surface implicite : ***sin(x)sin(y)sin(z)+sin(
 * Résistant au cisaillement.
 * Le découpage prend beaucoup de temps et produit de gros fichiers de code g. Pour certains imprimeurs, il peut être difficile d'obtenir des résultats satisfaisants. Pour certaines imprimantes, il peut être difficile de suivre les nombreuses commandes de code g par seconde, et il peut être difficile de suivre sur une connexion série à faible vitesse de transmission.
 
+![Schwarz D](../../../articles/images-mb/infill_schwarz_d.png)
+
 Page Wikipédia sur [Schwarz minimal surface](https://en.wikipedia.org/wiki/Schwarz_minimal_surface).
 
 Courbe de Hilbert
@@ -194,11 +199,15 @@ Courbe de Hilbert
 
 Le motif de remplissage Hilbert Curve produit un motif de type Hilbert Curve.
 
+![Courbe de Hilbert](../../../articles/images-mb/infill_hilbert_curve.png)
 
 Nid d'abeille
 ----
 
 Le motif de remplissage Nid d'abeille produit un motif de type Nid d'abeille.
+
+![Nid d'abeille](../../../articles/images-mb/infill_honeycomb.png)
+
 
 Discrete Lines
 ----

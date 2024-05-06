@@ -328,7 +328,7 @@ It can be approximated by the implicit surface : ***cos(x)+ cos(y)+ cos(z)=0***
 * Resistant to shearing.
 * Takes a long time to slice and produces large g-code files. For some printers it may be hard to keep up with the many g-code commands per second, and it may be hard to keep up with over serial connection on low baud rates.
 
-![Schwarz P](../images-mb/infill_schwarz_p.png
+![Schwarz P](../images-mb/infill_schwarz_p.png)
 
 
 Wikipedia page on [Schwarz minimal surface](https://en.wikipedia.org/wiki/Schwarz_minimal_surface).
@@ -345,7 +345,7 @@ It can be approximated by the implicit surface : ***sin(x)sin(y)sin(z)+sin(x)cos
 * Resistant to shearing.
 * Takes a long time to slice and produces large g-code files. For some printers it may be hard to keep up with the many g-code commands per second, and it may be hard to keep up with over serial connection on low baud rates.
 
-![Schwarz D](../images-mb/infill_schwarz_d.png
+![Schwarz D](../images-mb/infill_schwarz_d.png)
 
 Wikipedia page on [Schwarz minimal surface](https://en.wikipedia.org/wiki/Schwarz_minimal_surface).
 
@@ -354,14 +354,14 @@ Hilbert Curve
 
 The Hilbert Curve infill pattern produces a Hilbert Curve style pattern.
 
-![Hilbert Curve](../images-mb/infill_hilbert_curve.png
+![Hilbert Curve](../images-mb/infill_hilbert_curve.png)
 
 Honeycomb
 ----
 
 The Honeycomb infill pattern produces a Honeycomb style pattern.
 
-![Honeycomb](../images-mb/infill_honeycomb.png
+![Honeycomb](../images-mb/infill_honeycomb.png)
 
 Discrete Lines
 ----
